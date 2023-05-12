@@ -1,0 +1,45 @@
+.modal-body {
+	padding: 0 !important;
+}
+
+.modal-content {
+	border-radius: 6px !important;
+	border: none !important;
+}
+
+.modal-content > hr {
+	width: calc(100% - 20px);
+	margin: auto;
+}
+
+.modal-header {
+	border-bottom: none !important;
+}
+
+.modal-footer {
+	border-top: none !important;
+}
+
+.modal-footer > button {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.modal-header > img {
+	// TODO Fix and use button instead (also to support hover state)
+	cursor: pointer;
+}
+
+.modal-title {
+	font-size: 18px !important;
+	/* force center text */
+	margin-left: 25%;
+	margin: 0 auto 0 auto;
+	padding-left: 20px;
+}
+
+.modal-header > img {
+	margin: auto 0 auto 0;
+	padding-right: 8px;
+}

@@ -1,0 +1,29 @@
+.help_link_container,
+.help_link_container:hover {
+	margin-top: 15px;
+	border: 1px solid #e8ecf8;
+	width: auto;
+	height: 68px;
+	display: flex;
+	padding: 18px 16px;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #484848;
+}
+
+.help_link_container .description {
+	width: 275px;
+}
+
+.help_link_container > .image_box {
+	background: linear-gradient(0deg, #e8ecf8, #e8ecf8);
+	height: 32px;
+	width: 32px;
+	display: flex;
+	border-radius: 4px;
+}
+
+.help_link_container > .image_box > img {
+	margin: auto;
+}

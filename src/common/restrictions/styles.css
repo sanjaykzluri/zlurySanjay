@@ -1,0 +1,102 @@
+.upgrade__modal__wrapper{
+    background: linear-gradient(215.58deg, #2266E2 -16.01%, #5ABAFF 106.14%);
+border-radius: 6px;
+display: flex;
+flex-direction: column;
+padding: 60px 101px;
+align-items: center;
+color: #FFFFFF;
+}
+
+.upgrade__strip__title{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 2px 0;
+}
+.upgrade__strip__subtitle{
+    font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+
+}
+.strip__wrapper .processing__strip__subtitle{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222222;
+    opacity: 0.6;
+}
+.strip__wrapper .processing__strip__title{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+.strip__wrapper.processing__strip__wrapper{
+    justify-content: flex-start;
+    background: rgba(90, 186, 255, 0.1);
+}
+.processing__strip__description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.strip__wrapper{
+    background: linear-gradient( 
+        215.58deg
+         , #2266E2 -16.01%, #5ABAFF 106.14%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 39px;
+    padding: 7px 28px;
+    border-radius: 6px;
+}
+.upgrade__strip__button{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    background: #FFB169 !important;
+
+}
+.upgrade__modal__button{
+    background: #FFB169 !important;
+}
+.upgrade__modal__description{
+    font-family: Sora;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+margin-bottom: 17px;
+}
+.upgrade__modal__title{
+    font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+margin-bottom: 17px;
+}
+.restricted__message{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 65px auto;
+}

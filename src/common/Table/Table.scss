@@ -1,0 +1,72 @@
+.table__header {
+	color: #717171;
+	opacity: 0.7;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.table__row.table__row__disabled:hover {
+	background: rgba(235, 235, 235, 0.25);
+}
+.table__row.table__row__disabled {
+	background: rgba(235, 235, 235, 0.25);
+}
+.table__row {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	height: 48px;
+	/* black */
+	color: #222222;
+}
+
+.table td {
+	vertical-align: middle !important;
+}
+.users__image1 {
+	mix-blend-mode: luminosity;
+	opacity: 0.5;
+}
+.users__nodata__text {
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 21px;
+
+	color: #000000;
+
+	opacity: 0.5;
+	margin-top: 5px;
+}
+.users__nodata__button {
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	width: 117px;
+	height: 34px;
+	align-items: center;
+	background: white;
+	margin-top: 20px;
+}
+.users__nodata__button img {
+	width: 11px;
+	height: 11px;
+	margin-left: 8px;
+}
+#users__table__text {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #2266e2;
+	width: 69px;
+	height: 16px;
+	margin-left: 13px;
+}
+
+.selection-cell > input {
+	border: 1px solid #dddddd;
+	display: flex;
+}

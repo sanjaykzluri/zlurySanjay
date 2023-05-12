@@ -1,0 +1,24 @@
+ul.z_i_app_info_tag li {
+    background-color: rgba(90, 186, 255, 0.1);
+    color: rgb(90, 186, 255, 1);
+    border-radius: 4px;
+}
+
+.z_i_btn_success {
+    background-color: #effaef;
+}
+
+.z_i_btn_error {
+    background-color: #fff0f0;
+}
+
+.z_i_app_info_tag span {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background: #ffffff;
+    margin-right: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: -1px;
+}

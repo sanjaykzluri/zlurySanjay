@@ -1,0 +1,32 @@
+.start_text {
+	position: relative;
+	background-color: #fafbff;
+	padding: 0px 16px;
+	height: 40px;
+	line-height: 36px;
+	display: inline-block;
+	color: white;
+	border: 2px solid #dddddd;
+	border-right: none;
+	z-index: 1;
+	color: #717171;
+	font-family: "Sora";
+	font-style: normal;
+}
+
+.start_text:before {
+	content: "";
+	position: absolute;
+	left: 100%;
+	z-index: -1;
+	width: 28px;
+	height: 27px;
+	background-color: #fafbff;
+	border-right: 2px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
+	transform: rotate(-45deg) translate(-14px, -7px);
+}
+.actions_container {
+	width: 95%;
+	justify-content: space-around;
+}

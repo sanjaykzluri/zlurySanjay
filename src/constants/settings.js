@@ -1,0 +1,4 @@
+export const settingsConstants = {
+	ADMINS_REQUESTED: "ADMINS_REQUESTED",
+	ADMINS_FETCHED: "ADMINS_FETCHED",
+};

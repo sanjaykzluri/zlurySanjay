@@ -1,0 +1,338 @@
+.container {
+	width: 25%;
+}
+
+.stepper__step {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.stepper__stepper__wrapper {
+	position: relative;
+}
+
+.stepper__step .stepper__indicator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	border: 1px solid #ebebeb;
+	width: 35px;
+	height: 35px;
+	z-index: 2;
+}
+
+.stepper__step .stepper__active__indicator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	border: 1px solid #2266e2;
+	color: #2266e2;
+	width: 35px;
+	height: 35px;
+	z-index: 2;
+}
+
+.stepper__step .line {
+	top: 23px;
+	left: 27px;
+	height: 100%;
+	position: absolute;
+	border-left: 1px solid #ebebeb;
+}
+
+.stepper__step.completed .stepper__indicator {
+	visibility: visible;
+	background-color: rgb(6, 150, 215);
+	border-color: rgb(6, 150, 215);
+}
+
+.stepper__step.completed .line {
+	border-left: 3px solid rgb(6, 150, 215);
+}
+
+.stepper__step.active .stepper__indicator {
+	visibility: visible;
+	border-color: rgb(6, 150, 215);
+}
+
+.stepper__step.empty .stepper__indicator {
+	visibility: hidden;
+}
+
+.stepper__step.empty .line {
+	top: 0;
+	height: 150%;
+}
+
+.stepper__step:last-child .line {
+	border-left: 3px solid white;
+	z-index: -1; /* behind the circle to completely hide */
+	display: none;
+}
+
+.content {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.stepper__step__card.active .card-header {
+	background: #f5f6f9;
+}
+.stepper__step__card .card-header {
+	background: #ffffff;
+	border: none;
+}
+
+.stepper__step__card.card {
+	margin-left: 38px;
+	background-color: #ffffff;
+	border: none;
+}
+
+.gettingstarted__item__toggle-left__section.inactive {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #484848;
+	opacity: 0.4;
+	width: 25%;
+}
+
+
+
+.plan__stepper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 34px;
+}
+
+.createplan__wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.growthCardWrap {
+	display: flex;
+	align-items: center;
+	margin: 0 0 5px;
+}
+.growthCardWrap .cardContent {
+	display: flex;
+	background: #f5f6f9;
+	border-radius: 0px 0px 5px 5px;
+	padding: 11px 18px;
+}
+
+.growthCardWrap .growthCard {
+	width: 100%;
+	border: 1px solid #ebebeb;
+	margin: 0 10px;
+	border-radius: 6px;
+}
+.growthCard .contentWrap {
+	display: flex;
+	margin: 0 10px;
+}
+.growthCard h2 {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	color: #222;
+	margin: 12px 18px;
+}
+.growthCard .count {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	color: #222;
+	margin: 0 3px 0 0;
+	display: block;
+}
+.growthCard .date {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 8px;
+	line-height: 178.6%;
+	color: #717171;
+	display: block;
+}
+.growthCard .small {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 8px;
+	line-height: 178.6%;
+	margin: 5px 0 0 9px;
+}
+
+.growthoptions__wrapper {
+	width: 40%;
+}
+
+.generatedplan__saveplan {
+	height: 117px;
+	background: rgba(245, 246, 249, 0.4);
+	border: 1px solid rgba(197, 203, 222, 0.4);
+	padding: 16px 22px;
+}
+
+.planoverview__item {
+	width: 100%;
+	justify-content: space-between;
+	background-color: white;
+	margin-bottom: 8px;
+}
+
+.planoverview__item-header {
+	background-color: #f5f6f9 !important;
+	display: flex;
+	flex-direction: row;
+	padding: 0px !important;
+	height: 52px;
+	border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.planoverview__item-body {
+	padding: 15px 40px 22px;
+	margin: 0px 9px;
+	background-color: rgba(245, 246, 249, 0.5);
+	height: 95px;
+}
+
+.planoverview__cost__input {
+	width: 115px !important;
+	height: 41px !important;
+}
+
+.planoverview__cost__input:focus {
+	box-shadow: none !important;
+	border: 1 px solid #dddddd !important;
+	outline: 0 !important;
+	-webkit-box-shadow: none !important;
+}
+.card.plan__header__wrapper {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	padding: 24px 19px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.growthoptions-custom {
+	margin: 0 10px 0 22px;
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 160%;
+	color: #484848;
+	padding: 12px 19px;
+}
+
+.optimizestep__buffer__input {
+	width: 42px !important;
+	height: 28px !important;
+}
+
+.timeline__label {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #484848;
+}
+
+.timeline__description {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	color: #717171;
+}
+
+.screen_wrapper {
+	background: #f5f6f9;
+	min-height: calc(100vh - 78.19px);
+	max-height: 100%;
+	height: fit-content;
+}
+.plan_period-Wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 1px solid #ebebeb;
+	padding: 18px 0;
+	color: #484848;
+	font-size: 14px;
+}
+
+.plan_period-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0;
+	color: #484848;
+	font-size: 14px;
+}
+.plan_period-Wrap .timeline {
+	width: 28%;
+	display: flex;
+	font-weight: 600;
+}
+.user-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.growth-List-title {
+	font-family: "Sora", sans-serif;
+	font-size: 11px;
+	color: #717171;
+}
+.growth-lst-item {
+	font-family: "Sora", sans-serif;
+	font-size: 14px;
+	color: #484848;
+	padding: 13px 12px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.growth-lst-row {
+	border: 1px solid #ebebeb;
+	border-radius: 6px;
+	margin: 0 0 7px;
+	background: #fbfbfb;
+}
+.growth-lst-item:first-child {
+	background: #fff;
+	border-right: 1px solid #ebebeb;
+	border-radius: 6px 0 0 6px;
+}
+.growth-lst-item .small {
+	color: #717171;
+}
+.growth-lst-item h4 {
+	font-size: 14px;
+	color: #484848;
+}
+
+input.growth__textoption-labelinput {
+	width: 72px;
+	padding: 10px;
+}

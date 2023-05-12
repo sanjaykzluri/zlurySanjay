@@ -1,0 +1,95 @@
+.addTransactionModal__body_upper {
+	background: rgba(235, 235, 235, 0.3);
+	border-bottom: 1px solid #dddddd;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 120px;
+}
+
+.addTransactionModal__body_upper_inner {
+	width: 80%;
+	margin: 12px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.addTransactionModal__body_lower {
+	background: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.addDepartmentModal__body_lower_inner {
+	width: 80%;
+	// margin: 12px auto;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	font-size: 12px;
+	margin-left: 50px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.addTransactionModal__footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.new-class {
+	width: 91px !important;
+	display: block;
+	height: calc(1.5em + 0.75rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.vl {
+	height: 34px;
+	border: 1px solid #dddddd;
+}
+.my-class2 {
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 8px;
+	height: 36px;
+	width: 100% !important;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #717171;
+	opacity: 0.8;
+
+	padding-left: 12px;
+}
+.my-class3 {
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 8px;
+	height: 34px;
+	width: 100% !important;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #717171;
+	opacity: 0.8;
+	padding-left: 12px;
+}
+
+.form-control-group .form-control:not(.is-invalid) {
+	border: none;
+}

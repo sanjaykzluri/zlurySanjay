@@ -1,0 +1,14 @@
+.preview-document-side-modal {
+	height: 100%;
+	width: 688px;
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	border: 1px solid #dddddd;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}

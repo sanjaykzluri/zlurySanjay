@@ -1,0 +1,420 @@
+.license-usage-pie-date-picker {
+	height: 34px;
+	width: 110px;
+	padding-left: 5px;
+}
+
+.license-usage-pie-calendar {
+	top: 34px !important;
+	left: -170px !important;
+}
+
+.licensePie__row__oarrow {
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 23px solid;
+	border-color: #ffe4cd #ffe4cd transparent transparent;
+	transform: rotate(45deg);
+}
+.licensePie__row__oarrow:before {
+	content: "";
+	position: absolute;
+	right: -3px;
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: linear-gradient(
+		269.17deg,
+		#ffe4cd 14.62%,
+		rgba(255, 239, 225, 0) 103.32%
+	);
+	transform: rotate(-45deg) translate(6px, 1px);
+}
+
+.licensePie__row__greyarrow {
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 23px solid;
+	border-color: #ebebeb #ebebeb transparent transparent;
+	transform: rotate(45deg);
+}
+.licensePie__row__greyarrow:before {
+	content: "";
+	position: absolute;
+	right: -3px;
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: linear-gradient(
+		269.17deg,
+		#ebebeb 14.62%,
+		rgba(255, 239, 225, 0) 103.32%
+	);
+	transform: rotate(-45deg) translate(6px, 1px);
+}
+.licensePie__row__arrow__text {
+	position: absolute;
+	transform: rotate(-45deg) translate(2px, 1px);
+	right: -2.5px;
+}
+
+.licensePie__row__garrow {
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 23px solid;
+	border-color: #dff5e0 #dff5e0 transparent transparent;
+	transform: rotate(45deg);
+}
+.licensePie__row__garrow:before {
+	content: "";
+	position: absolute;
+	right: -3px;
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: linear-gradient(
+		269.17deg,
+		#dff5e0 14.62%,
+		rgba(223, 245, 224, 0) 103.32%
+	);
+	transform: rotate(-45deg) translate(6px, 1px);
+}
+
+.optimization-license-usage-pie-tooltip {
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	width: 214px;
+	height: 144px;
+	background: #162c50;
+	border-radius: 4px;
+	color: white;
+	font-size: 11px;
+	padding: 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: 10;
+}
+
+.opti-license-users-table-modal {
+	display: flex;
+	height: 600px !important;
+	width: 1000px !important;
+}
+
+.opti-license-users-table-modal {
+	height: 600px !important;
+}
+
+.generate_optimization_div {
+	display: flex;
+	background-color: #fafbfc;
+	padding: 72px 70px;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.generate_optimization_bullet_grid {
+	margin-top: 24px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-columns: max-content;
+	grid-auto-rows: min-content;
+	grid-gap: 12px;
+}
+
+.optimization_in_progress {
+	margin-top: 1.5rem;
+	margin-bottom: 0.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 280px;
+	height: 42px;
+	background: rgba(90, 186, 255, 0.1);
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #5abaff;
+}
+
+.optimization_license_usage_pie_table_div {
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	border-radius: 6px;
+	width: 1020px;
+}
+
+.license_usage_pie_date_section {
+	display: flex;
+	background: #f5f6f9;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.savings_wastage_arrow {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.license_list_tooltip {
+	position: absolute;
+	width: 270px;
+	max-height: 150px;
+	top: 0px;
+	left: -100px;
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05),
+		0px 4px 11px rgba(0, 0, 0, 0.08);
+	z-index: 100;
+	overflow-x: auto;
+	padding: 10px;
+}
+
+.license_list_tooltiparrow {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 15px;
+	left: 54%;
+	box-sizing: border-box;
+	border: 8px solid black;
+	border-color: transparent transparent #ffffff #ffffff;
+	transform-origin: 0 0;
+	transform: rotate(-225deg);
+	box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.license_users_table_license_toggler {
+	height: 34px;
+	padding: 0 4px;
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.license_users_table_license_toggler > div {
+	max-width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.optimization_get_started_step_box {
+	height: 250px;
+	width: 620px;
+	border: 1px solid #ebebeb;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: #ebebeb33;
+	justify-content: space-between;
+}
+
+.optimization_getting_started_box {
+	display: flex;
+	flex-direction: column;
+	height: 363px;
+	width: 984px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+}
+
+.optimization_summary_container {
+	padding: 10px;
+	background: #e8f0fc;
+	height: calc(100% - 72px);
+}
+
+.optimization_summary_meta_cards_and_table_container {
+	padding: 10px;
+	background: #ffffff;
+	height: 100%;
+	gap: 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.optimization_summary_table_container {
+	display: flex;
+	height: calc(100vh - 330px);
+	overflow: auto;
+}
+
+.optimization_summary_table {
+	width: 100%;
+	font-size: 12px;
+	background: #ebebeb;
+	border-collapse: collapse;
+	height: fit-content;
+	border: 1px solid #dddddd;
+}
+
+.optimization_summary_table_head {
+	font-weight: 600;
+	color: #484848;
+	height: 36px;
+	background: #f6f7fa;
+	position: sticky;
+	top: -1px;
+}
+
+.optimization_summary_table_head_row {
+	display: table;
+	height: 36px;
+	border: 1px solid #dddddd;
+}
+
+.optimization_summary_table_head_row_cell > div {
+	min-width: 190px;
+}
+
+.optimization_summary_table_head_row_cell {
+	padding: 0px 11px;
+	border: 1px solid #dddddd;
+}
+
+.optimization_summary_table_body {
+	font-weight: 400;
+	color: #222222;
+	background: #ffffff;
+}
+
+.optimization_summary_table_body_row {
+	height: 32px;
+	display: table;
+}
+
+.optimization_summary_table_body_row_cell {
+	padding: 0px 11px;
+	border: 1px solid #dddddd;
+}
+
+.optimization_summary_table_body_row_cell > div {
+	min-width: 190px;
+}
+
+.optimization_summary_app_cell {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.optimization_summary_meta_cards_container {
+	height: 145px;
+	background: #f6f7fa;
+	border-radius: 8px;
+	padding: 16px;
+	display: flex;
+	gap: 8px;
+	justify-content: space-between;
+}
+
+.optimization_summary_meta_title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 8px;
+	gap: 6px;
+	height: 113px;
+	min-width: auto;
+	width: 100%;
+}
+
+.optimization_summary_meta_card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 8px;
+	height: 113px;
+	background: #ffffff;
+	border: 1px solid rgba(72, 72, 72, 0.1);
+	border-radius: 8px;
+	min-width: 140px;
+	width: 100%;
+}
+
+.optimization_summary_table_filter_section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.optimization_summary_empty_table {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 84px 16px 16px;
+	gap: 32px;
+	background: #f6f7fa;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.optimization_summary_empty_table > div {
+	width: 75%;
+	max-width: 800px;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #484848;
+	text-align: center;
+}
+
+.optimization_summary_empty_table_and_meta_cards {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	padding: 144px 16px;
+	gap: 32px;
+	background: #f6f7fa;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.optimization_summary_empty_table_and_meta_cards > div {
+	width: 75%;
+	max-width: 800px;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 500;
+	color: #484848;
+	text-align: center;
+}
+
+.highlight_on_hover:hover {
+	background: rgba(90, 186, 255, 0.1);
+}
+
+.optimization_summary_estimated_wastage_header {
+	padding: 0px;
+	border: 1px solid #dddddd;
+	width: 213px;
+}
+
+.optimization_summary_toggle_license_display_header {
+	border: 1px solid #dddddd;
+}
+
+.optimization_summary_toggle_license_display_header > div {
+	min-width: 50px;
+}
+
+.optimization_summary_toggle_license_display_cell {
+	border: 1px solid #dddddd;
+}
+
+.optimization_summary_toggle_license_display_cell > div {
+	min-width: 50px;
+}

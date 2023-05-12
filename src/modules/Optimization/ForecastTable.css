@@ -1,0 +1,27 @@
+.forecasttable-tooltip-content {
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05),
+		0px 4px 11px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	width: fit-content;
+	height: fit-content;
+	padding: 24px 11px 11px;
+	font-size: 12px;
+}
+
+.forecasttable-tooltip-content::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 15px;
+	left: 50%;
+	box-sizing: border-box;
+	border: 8px solid black;
+	border-color: transparent transparent #ffffff #ffffff;
+	transform-origin: 0 0;
+	transform: rotate(-225deg);
+	box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.1);
+}

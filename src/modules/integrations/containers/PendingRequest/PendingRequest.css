@@ -1,0 +1,15 @@
+.catalog-banner {
+	background: url(../../../../assets/integrations/catalog-browse-img.png)
+		no-repeat left rgba(90, 186, 255, 0.1);
+	background-position: 3%;
+	height: 60px;
+	opacity: 0.9;
+}
+
+.catalog-banner-full {
+	background: url(../../../../assets/integrations/catalog-img.png) no-repeat;
+	background-position: right;
+	background-color: rgba(235, 238, 246, 1);
+	height: 200px;
+	border-radius: 6px;
+}

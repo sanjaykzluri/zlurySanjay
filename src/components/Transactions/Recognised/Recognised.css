@@ -1,0 +1,126 @@
+.inputWithIconAppsTxns {
+	margin: 5px;
+}
+
+.inputWithIconAppsTxns input[type="text"] {
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px !important;
+	height: 34px;
+	width: 200px !important;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #717171;
+	opacity: 0.8;
+}
+
+.inputWithIconAppsTxns input[type="text"] {
+	padding-left: 40px;
+}
+
+.inputWithIconAppsTxns {
+	position: relative;
+}
+
+.inputWithIconAppsTxns img {
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	padding: 9px 8px;
+	color: #aaa;
+	transition: 0.3s;
+}
+
+.table__info__text__left {
+	padding-left: 14px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #717171;
+	opacity: 0.7;
+	margin: 0px 8px;
+	display: flex;
+	flex-direction: row;
+}
+
+.table__info__text__right1 {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #717171;
+	opacity: 0.7;
+	margin: 0px 8px 0px 0px;
+}
+
+.table__info__text__right2 {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #717171;
+	opacity: 0.7;
+	margin: 0px 6px;
+}
+
+.transaction__table__details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	left:30px;
+	padding-right: 70px;
+}
+
+.transaction__table__details__archived {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+}
+
+.table__row__select {
+	position: relative;
+	top:-4px;
+	width: 49px;
+	height: 23px;
+	border: 1px solid #DDDDDD;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding-left: 3px;
+}
+
+.transaction__table__selectors {
+	display: flex;
+	flex-direction: row;
+}
+
+.transaction__table__page__selector {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	top: -4px;
+}
+
+.filter-capsule {
+	height: 18px;
+	background: rgba(90, 186, 255, 0.1);
+	border-radius: 14px;
+	order: 1;
+}
+
+.filter-capsule-text {
+	padding: 0px 4px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+}

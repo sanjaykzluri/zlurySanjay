@@ -1,0 +1,125 @@
+.similarapps__d1 {
+	width: 100%;
+	height: 72px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+
+	color: #000000;
+	position: relative;
+}
+.similarapps__d1 > img {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+.similarapps__d2 {
+	width: 529px;
+	height: 84px;
+
+	/* grey-4 */
+
+	background: rgba(235, 235, 235, 0.3);
+
+	/* grey-3 */
+
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+.similarapps__d2__d1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	padding-left: 51px;
+}
+.similarapps__d2__d1 > img {
+	height: auto;
+	width: 38px;
+}
+.similarapps__d2__d2 {
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.similarapps__d2__d2.fixed_width {
+	width: 209px;
+}
+.similarapps__d2__d2__d1 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+
+	/* black */
+
+	color: #222222;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.similarapps__d2__d2__d2 {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	/* identical to box height */
+
+	/* grey-2 */
+
+	color: #717171;
+}
+/* for button */
+.similarapps__d2__d2__d2__d2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: right;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.similarapps__d3 {
+	width: 100%;
+	height: calc(100vh - 156px);
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 25px 45px 0px;
+}
+
+.white_bg {
+	background-color: #ffffff;
+}
+
+.similarAndAlternateImageContainer {
+	padding-left: 0px;
+	width: 40px;
+}
+
+.similarAndAlternateContainer {
+	height: auto;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.heading_border {
+	margin: 8px 0px 8px;
+}
+
+.view_link {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.view_link:hover {
+	text-decoration: none;
+}

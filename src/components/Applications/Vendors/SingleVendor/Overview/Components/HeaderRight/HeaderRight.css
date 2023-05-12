@@ -1,0 +1,17 @@
+.overview__top__next__vendor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #ffffff;
+	border-radius: 4px;
+	margin: 10px 0px;
+	padding: 20px;
+	height: auto;
+	gap: 15px 25px;
+	width: fit-content;
+}
+.overview__top__next__insights {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+}

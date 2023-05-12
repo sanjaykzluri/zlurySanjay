@@ -1,0 +1,30 @@
+.truncate_20vw {
+	max-width: 20vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.inputWithIconAppsSearch {
+	position: relative;
+}
+
+.inputWithIconAppsSearch img {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	padding: 9px 8px;
+	color: #aaa;
+	transition: 0.3s;
+}
+
+.approver-action {
+	min-width: 300px;
+}
+
+.text-truncate-10vw {
+	max-width: 10vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

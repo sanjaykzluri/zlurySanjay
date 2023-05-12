@@ -1,0 +1,55 @@
+.add-license-to-contract-header {
+	background: #ebebeb;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px 15px 30px;
+}
+
+.add-to-contract-license-card {
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.add-license-to-contract-card-container {
+	padding: 30px;
+}
+
+.add-license-to-contract-add-more {
+	display: flex;
+	flex-direction: column;
+	background: #ebebeb;
+	padding: 30px;
+}
+
+.orphan-license-card {
+	min-width: 265px;
+	height: 87px;
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin-right: 10px;
+	align-items: center;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+.orphan-card-container {
+	max-width: 500px;
+	display: flex;
+	overflow-x: auto;
+}
+
+.table-cell-change-payment-method {
+	position: absolute;
+	width: 270px;
+	max-height: 315px;
+	top: 10px;
+	left: 30px !important;
+	padding: 8px;
+}

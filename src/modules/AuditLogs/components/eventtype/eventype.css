@@ -1,0 +1,53 @@
+.event_type_wrapper {
+	width: 100px;
+	height: 25px;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+}
+.event_type_removed {
+	background: rgba(255, 177, 105, 0.1);
+	color: #ffb169;
+}
+.event_type_added {
+	background: rgba(105, 103, 224, 0.1);
+	color: #6967e0;
+}
+.event_type_updated {
+	background: rgba(90, 186, 255, 0.1);
+	color: #5abaff;
+}
+.event_type_archived {
+	background: rgba(241, 122, 143, 0.1);
+	color: #f17a8f;
+}
+.event_type_synced {
+	background: rgba(193, 138, 255, 0.1);
+	color: #c18aff;
+}
+.event_type_others {
+	background: rgba(133, 155, 169, 0.1);
+	color: #859ba9;
+}
+.event_type_misc {
+	background: rgba(133, 155, 169, 0.1);
+	color: #859ba9;
+}
+.event_type_created {
+	background: rgba(34, 102, 226, 0.1);
+	color: #2266e2;
+}
+.event_type_login {
+	color: #4846bd;
+	background: rgba(72, 70, 189, 0.1);
+}
+.event_type_invited {
+	color: #dbaa00;
+	background: rgba(219, 170, 0, 0.1);
+}
+.event_type_enrolled {
+	color: #ba4435;
+	background: rgba(173, 20, 0, 0.08);
+}

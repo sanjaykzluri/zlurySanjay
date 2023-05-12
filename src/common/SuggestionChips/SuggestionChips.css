@@ -1,0 +1,17 @@
+.form-suggestion-chip {
+	background: #f4f6fa;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	cursor: pointer;
+	justify-content: center;
+	margin-right: 5px;
+}
+
+.form-suggestion-name {
+	max-width: 135px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

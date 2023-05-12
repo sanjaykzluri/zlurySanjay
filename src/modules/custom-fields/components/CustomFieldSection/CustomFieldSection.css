@@ -1,0 +1,22 @@
+.cf-card {
+    border: 1px dashed #717171;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    min-width: 185px;
+    min-height: 58px;
+}
+
+.cf-section{
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.cf-card__add{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    word-break: break-word;
+}

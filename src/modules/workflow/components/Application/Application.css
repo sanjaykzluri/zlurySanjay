@@ -1,0 +1,117 @@
+.z-workflow-application > header {
+	background: #f8f9fb;
+	border-bottom: 1px solid #e4e8f3;
+}
+
+.z-w-manual-task label {
+	display: block;
+}
+
+.z-w-manual-task input {
+	width: 100%;
+}
+
+.account-select-ui {
+	background: transparent;
+	border: none;
+}
+
+.account-select-ui .z__select--input {
+	padding: 0px 10px;
+}
+
+.account-select-ui > .z__select--input span {
+	opacity: 1;
+}
+
+.account-select-ui .z-selected-single {
+	margin-right: 0px !important;
+}
+
+.z-workflow-application.is-active {
+	opacity: 1;
+	transform: scale(1.05);
+	border: 1px solid #5abaff !important;
+	filter: drop-shadow(0px 5px 10px rgba(203, 206, 214, 0.44));
+	z-index: 999;
+	position: relative;
+}
+
+div.load-integrations-spinner {
+	width: 1.5em;
+	height: 1.5em;
+	margin-top: 2px;
+	position: relative;
+	top: 2px;
+	border-width: 0.15em;
+}
+
+div[placement|="bottom"] {
+	z-index: 99999999999;
+}
+
+.show-multi-app {
+	background: #f8f9fb;
+}
+
+.multi-app-logo > div:not(:first-of-type),
+.multi-app-logo > img:not(:first-of-type) {
+	margin-left: -20px !important;
+}
+
+.avatar {
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.avatar > div:not(:first-child),
+.avatar > img:not(:first-child) {
+	margin-left: -20px;
+}
+
+.avatar img {
+	width: 100%;
+	display: block;
+}
+
+.avatars {
+	direction: rtl; /* This is to get the stack with left on top */
+	text-align: left; /* Now need to explitly align left */
+	padding-left: 25px; /* Same value as the negative margin */
+}
+
+.applicable-users-workflow {
+	width: unset;
+	min-height: auto;
+	min-width: 180px;
+}
+
+.applicable-users-workflow ul li {
+	border: 0.5px solid #ebebeb !important;
+	box-sizing: border-box;
+}
+
+.applicable-users .arrow {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 55% !important;
+	box-sizing: border-box;
+	border: 8px solid black;
+	border-color: transparent transparent #ffffff #ffffff;
+	transform-origin: 0 0;
+	transform: rotate(-225deg);
+	box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.1);
+	z-index: 10;
+}
+
+.applicable-users-workflow ul {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+.drag-action {
+	z-index: 999999;
+}

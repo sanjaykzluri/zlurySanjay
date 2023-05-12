@@ -1,0 +1,49 @@
+.rule-block button {
+	background: transparent !important;
+	border-color: #2266e2 !important;
+	width: 100%;
+	text-align: left;
+}
+
+.attribute-condition-row > div,
+.workflow-trigger-row > div {
+	border: 1px solid #e8ecf8;
+}
+
+.attribute-condition-row .z-select,
+.workflow-trigger-row .z-select {
+	min-width: 150px;
+}
+
+.attribute-condition-row div.z-select.attribute-operators-select div,
+.workflow-trigger-row div.z-select.attribute-operators-select div {
+	text-transform: lowercase;
+}
+
+.attribution-conditon-block,
+.workflow-rule-block {
+	background: #f5f6f9;
+	position: relative;
+}
+
+.attribute-condition-row button,
+.workflow-trigger-row button {
+	width: 62px;
+	text-transform: uppercase;
+	color: #5abaff;
+	border-color: #5abaff;
+}
+
+.attribution-conditon-block:not(:first-child)::before {
+	content: "or";
+	position: absolute;
+	left: 50%;
+	margin-top: -56px;
+	font-weight: 600;
+	color: #484848;
+	background: url("../../../../assets/line.png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	padding: 4px 0;
+	background-size: contain;
+}

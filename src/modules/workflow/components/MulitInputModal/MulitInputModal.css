@@ -1,0 +1,33 @@
+.multi-input-modal > .modal-body{
+    margin: 1.5rem !important;
+}
+.multi-input-modal-container table thead{
+    background: #F8F9FB;
+    border-radius: 4px;
+}
+
+.mi-row{
+    background: #FFFFFF;
+    border: 1px solid #E8ECF8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 60px;
+}
+
+.mi-row  td{
+    width: 50%;
+}
+
+.multi-input-modal-container tr.spacer{
+    height: 10px;
+}
+
+
+.mi-row td .z__select{
+    margin:0;
+}
+
+.mi-row > td > div{
+    margin-bottom: 0!important;
+    padding: 0 10px;
+}

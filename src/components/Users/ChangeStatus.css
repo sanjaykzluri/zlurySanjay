@@ -1,0 +1,82 @@
+.changestatus_username{
+background: #f5f5f5;
+border-radius: 40px;
+width: fit-content;
+padding:5px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+flex-shrink: 0;
+}
+
+.change-statusWrap .inactive,.chagestatus_status .active
+{
+        display: flex;
+justify-content: center;
+align-items: center;
+margin:0 5px;
+    position: relative;
+    width: fit-content;
+    background: #f5f5f5;
+    padding: 10px 5px 10px 29px;
+    border-radius: 40px;
+font-family: Sora;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+padding: 5px 20px 5px 22px;
+}
+.changeStaus_header .right_arrow{
+margin: 0 5px;
+}
+
+.changeStaus_header{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding:10px;
+    width:100%;
+}
+.change-statusWrap .inactive::before,.chagestatus_status .active::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 9px;
+    border-radius:50%;
+}
+
+ .change-statusWrap .inactive::before{
+     background:#757575;
+}
+.change-statusWrap .status_mesasge{
+     font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+margin:0 10px;
+}
+.change-statusWrap p,.change-statusWrap .note_message{
+    font-family: Sora;
+font-size: 14px;
+line-height: 18px;
+}
+.change-statusWrap .note_message span{
+font-size: 10px;
+}
+.add_note textarea{
+    width: 377px;
+}
+.add_note {
+    margin: 7px 0 20px;
+}
+.modal-dialog.change-statusWrap{
+    max-width: 90vw;
+    width: fit-content;
+}
+.change-statusWrap .change__status__body{
+    width: fit-content;
+}

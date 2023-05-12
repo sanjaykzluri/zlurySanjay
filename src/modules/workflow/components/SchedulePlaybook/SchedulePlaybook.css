@@ -1,0 +1,31 @@
+.schedule-playbook-date-picker-width {
+	min-width: 100% !important;
+}
+
+.schedule-date-calendar-picker {
+	top: -258px !important;
+	left: 0px;
+}
+
+.schedule-time-picker {
+	top: -203px !important;
+	left: 0px;
+	max-height: 200px;
+}
+
+.schedule-unit-picker {
+	top: -89px !important;
+	left: 0px;
+	max-height: 200px;
+	text-transform: none !important;
+}
+
+.schedule-playbook-bottom .schedule-playbook-timezone-container {
+	flex: 2;
+}
+.schedule-playbook-modal .schedule-playbook-timezone-container {
+	width: 100%;
+}
+.schedule-playbook-modal .type-confirm-container {
+	flex: 1;
+}

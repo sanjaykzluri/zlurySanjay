@@ -1,0 +1,108 @@
+.connect_new_integration_modal {
+	background: #f5f6f9;
+}
+.connect_new_integration_modal .modal-dialog {
+	max-width: 96% !important;
+	max-height: 100% !important;
+	min-height: 100% !important;
+	margin: 0px;
+	padding: 0px;
+}
+.connect_new_integration_modal .plan__stepper {
+	margin-top: 0px;
+}
+
+.new-integration-connect-stepper .stepper__step__card {
+	max-width: 540px;
+}
+.new-integration-connect-stepper .inactive {
+	width: 100%;
+}
+
+.new-integration-connect-stepper .stepper__step__card.active .card-header {
+	background: #f8f9fb;
+}
+.new-integration-connect-stepper .stepper__step__card.active .card-header span {
+	color: #484848;
+}
+.z_connect_new_integration_header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.z_connect_new_integration_header .z_admin_privilages {
+	width: 311px;
+	height: 55px;
+}
+.connect_new_integration_modal .z_i_connect_modal_req_coworker_container {
+	max-width: 545px;
+	max-height: 660px;
+}
+
+.z_i_connect_modal_req_coworker_container .card-header {
+	background: #f8f9fb;
+}
+
+.how-to-connect {
+	height: 40px;
+	background: #f5f6f9;
+	border-radius: 4px;
+	font-weight: 600;
+	line-height: 15px;
+	margin-top: 30px;
+	margin-bottom: 23px;
+}
+.how-to-connect span {
+	padding-left: 7px;
+}
+.integration-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	width: 227px;
+	height: 48px;
+}
+.connect_new_integration_modal .text-glow {
+	color: #5abaff;
+}
+.connect_new_integration_modal .color-gray-2 {
+	color: #717171;
+}
+.connect_new_integration_modal .min-width-409 {
+	min-width: 409px;
+}
+
+.feature-label {
+	/* grey-2 */
+
+	color: #717171;
+	font-size: 12px;
+	line-height: 15px;
+	opacity: 0.7;
+	padding: 10px 0;
+}
+.__feature_filters {
+	font-size: 12px;
+	line-height: 15px;
+	padding: 11px 11px;
+}
+
+.btn.no-focus:focus {
+	outline: 0;
+	box-shadow: none;
+}
+.styles-module_navigation__1pqAE {
+	display: none !important;
+}
+
+.styles-module_wrapper__1I_qj {
+	z-index: 10006 !important;
+	background-color: grey !important;
+}
+
+.styles-module_close__2I1sI {
+	color: "white" !important;
+}

@@ -1,0 +1,24 @@
+ul.z_i_app_info_permissions li span {
+    border: 1px solid #ccc;
+}
+
+.z_i_app_existing_permissions{
+
+    line-break: anywhere;
+    background: #FAFAFA;
+    border: 0.5px solid #DDDDDD;
+}
+
+.z_hide_added_permissions{
+    left: 50%;
+    transform: translate(-50%, 12px);
+    width: fit-content;
+    background: #FAFAFA;
+    border: 0.5px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 19px;    
+}
+
+.hide-permissions .z_hide_added_permissions{
+    transform: translate(-50%, -16px);
+}

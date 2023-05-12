@@ -1,0 +1,56 @@
+.z-w-add-action {
+	border-bottom: 1px solid #e4e8f3;
+}
+
+.edit-action-select-ui,
+.edit-action-select-ui.active {
+	border: none;
+	padding: 0px;
+	width: auto;
+}
+
+.edit-action-select-ui .z-select-placeholder {
+	color: #2266e2;
+	margin-left: 0;
+}
+
+.edit-action-select-ui .z-select-optioner {
+	min-width: 160px;
+}
+
+.action-scope-validation {
+	background: rgba(255, 177, 105, 0.1);
+	border-radius: 4px;
+}
+
+.edit-action-select-ui .z__select--input__icon {
+	right: 40px;
+}
+
+div.action-edit-spinner {
+	width: 1em;
+	height: 1em;
+	margin-top: 2px;
+	position: relative;
+	top: 2px;
+	border-width: 0.1em;
+}
+
+.action-scope-validation div:first-child img:nth-child(2) {
+	position: absolute;
+	transform: translate(50%, 0%);
+	left: 50%;
+	top: 50%;
+}
+
+.z-action-index {
+	background: #717171;
+	border-radius: 3px;
+	color: #fafbfc;
+	height: 16px;
+	margin-top: 2px;
+}
+
+.approver-action {
+	min-width: 300px;
+}

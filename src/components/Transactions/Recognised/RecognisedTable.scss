@@ -1,0 +1,35 @@
+.page-item {
+	height: 34px;
+	width: 34px;
+	border: 1px solid #dddddd;
+	display: flex;
+	margin-right: 3px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.page-item-active {
+	@extend .page-item;
+	background: #ebebeb;
+	cursor: default;
+}
+
+.page-item-prev-next {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 10px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	width: 69px;
+	height: 34px;
+	padding-left: 10px;
+	border: none;
+	background: none;
+	color: #484848;
+	border-radius: 4px;
+}

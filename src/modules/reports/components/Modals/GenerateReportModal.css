@@ -1,0 +1,308 @@
+.generatereport__modal {
+	width: 796px;
+	max-width: 796px;
+	min-width: 796px !important;
+}
+.generatereport__modal__nofilter {
+}
+.generatereport__cont {
+	display: flex;
+	flex-direction: column;
+	width: 796px;
+	height: 500px;
+}
+.generatereport__cont__d1 {
+	width: 796px;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	position: relative;
+}
+.generatereport__cont__nofilter {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	position: relative;
+}
+.generatereport__cont__closebutton {
+	position: absolute;
+	top: 26px;
+	right: 26px;
+}
+
+.generatereport__cont__d1__d1 {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(235, 235, 235, 0.3);
+	width: 279px;
+	height: 100%;
+	padding: 50px 25px 0px;
+	align-items: center;
+	position: relative;
+}
+.generatereport__cont__d1__d1__nofilter {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 50px 25px 0px;
+	align-items: center;
+}
+
+.generatereport__cont__d1__d1__d2 {
+	margin-top: 12px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	color: #222222;
+	margin-bottom: 4px;
+}
+.generatereport__cont__d1__d1__d3 {
+	font-size: 10px;
+	line-height: 150%;
+	color: #484848;
+	margin-top: 10px;
+}
+.generatereport__cont__d1__d2 {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 516px;
+	padding: 70px 0px 50px;
+	overflow-y: auto;
+}
+.generatereport__cont__d1__d2c {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 516px;
+	padding: 102px 101px 0px 87px;
+	align-items: center;
+}
+.generatereport__cont__d1__d2__d1 {
+	font-size: 12px;
+	line-height: 15px;
+	color: #484848;
+	margin-bottom: 8px;
+}
+.generatereport__cont__d1__d2__d1__range {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 8px;
+	align-items: center;
+	position: relative;
+}
+.generatereport__cont__d1__d2__d1__range > input {
+	width: 100px;
+	height: 36px;
+	border-radius: 4px;
+	border: 1px solid #dddddd;
+	line-height: 16px;
+	opacity: 0.8;
+	font-size: 13px;
+}
+.generatereport__cont__d1__d2__d2c {
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 29px;
+	color: #222222;
+}
+.generatereport__cont__d1__d2__d3c {
+	font-size: 13px;
+	line-height: 20px;
+	color: #717171;
+	margin-top: 7px;
+}
+
+.modal-15w {
+	width: 327px !important;
+}
+
+.generatereport__cont__schedulereports__cont {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	box-shadow: 0px -4px 24px rgba(0, 0, 0, 0.06);
+	display: flex;
+	flex-direction: column;
+}
+
+.generatereport__cont__schedulereports__cont__header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 74px;
+	position: relative;
+	background: rgba(235, 235, 235, 0.3);
+}
+.generatereport__cont__schedulereports__cont__forms {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding-top: 18px;
+	align-items: center;
+}
+
+.customswitch__cont {
+	width: fit-content;
+	height: 44px;
+	background: #ebebeb;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 4px;
+	transition: background-color 0.2s;
+}
+
+.customswitch__cont__option__active {
+	width: fit-content;
+	height: 36px;
+	background: #ffffff;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	color: #2266e2;
+	justify-content: center;
+	padding: 0px 20px;
+	transition: background-color 0.2s;
+}
+.customswitch__cont__option {
+	font-size: 13px;
+	color: #717171;
+	width: fit-content;
+	height: 36px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 20px;
+	transition: background-color 0.2s;
+}
+
+.generatereport__cont__schedulereports__cont__forms__heading {
+	font-size: 12px;
+	color: #000000;
+	opacity: 0.8;
+	margin-bottom: 8px;
+}
+
+#schedule-report-button-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 13px;
+	margin-bottom: 20px;
+}
+
+.recurring_interval_dropdown {
+	width: 100px !important;
+	height: 40px;
+}
+
+.recurring_frequency_input {
+	width: 67px !important;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.recurring-on-datepicker {
+	width: 100px;
+	padding-left: 5px;
+}
+
+.multi-user-select-schedule-report {
+	height: 85px;
+	width: 290px;
+	border: none;
+	resize: none;
+}
+
+.schedule-name-edit {
+	width: 207px;
+	min-height: 64px;
+	background-color: #ebebeb;
+	border-radius: 4px;
+	margin-bottom: 28px;
+	padding: 12px 18px 14px 16px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.delete-schedule-confirmation-modal {
+	height: 275px;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.delete-schedule-confirmation-close {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 46px;
+	width: 100%;
+	justify-content: flex-end;
+	padding-right: 20px;
+	position: relative;
+}
+
+.schedule-date-calendar {
+	top: 36px !important;
+	left: 0px;
+}
+
+.repeat-on-schedule-datepicker {
+	top: 36px !important;
+	left: -181px;
+}
+
+.schedule-name-inline-edit {
+	max-width: 175px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.edit_schedule_popover {
+	width: 345px;
+	min-height: 308px;
+	position: absolute;
+	left: -250px !important;
+	top: 5px !important;
+}
+
+.truncate_schedule_name {
+	max-width: 125px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.schedule-export-name-in-table-edit {
+	max-width: 175px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 2px;
+}
+
+.schedule-report-name-in-table-edit {
+	max-width: 125px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 2px;
+}
+
+.schedule-report-name-in-table-input {
+	min-width: 100px !important;
+}

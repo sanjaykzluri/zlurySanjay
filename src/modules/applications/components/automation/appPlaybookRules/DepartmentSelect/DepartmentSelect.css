@@ -1,0 +1,7 @@
+.chip__container__rule {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+}

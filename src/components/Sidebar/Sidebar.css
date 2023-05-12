@@ -1,0 +1,191 @@
+.sidebar__outer {
+	width: 180px;
+	height: 100vh;
+	background-color: #2266e2;
+}
+
+.sidebar__logo {
+	padding: 20px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar__list-upper {
+	color: white;
+	border-bottom: 1px solid #3d5fa9;
+}
+
+.sidebar__list-upper > ul {
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+.sidebar__line {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.2) 0%,
+		#ffffff 49.48%,
+		rgba(255, 255, 255, 0.2) 100%
+	);
+	height: 1px;
+}
+
+.sidebar__list-upper > ul > li > button {
+	font-size: 14px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0px;
+	line-height: 18px;
+	font-weight: normal;
+	height: 46px;
+	background-color: #2266e2;
+	border-color: #2266e2;
+	width: 100%;
+	border-radius: 0 !important;
+}
+
+.sidebar__list-upper > ul > li > button > img {
+	margin-right: 12px;
+}
+.sidebar__list-upper__interiorbutton {
+	font-size: 12px !important;
+	padding-left: 35px !important;
+	line-height: 18px !important;
+	height: 34px !important;
+}
+.sidebar__list-upper__interiorbutton {
+	font-size: 12px !important;
+	padding-left: 35px !important;
+	line-height: 18px !important;
+	height: 34px !important;
+}
+
+.sidebar__list-upper > ul > li > .sidebar__active {
+	background: linear-gradient(
+		269.96deg,
+		#ffffff 0.03%,
+		rgba(255, 255, 255, 0.37) 0.04%,
+		rgba(255, 255, 255, 0.02) 99.97%,
+		rgba(255, 255, 255, 0.02) 99.97%
+	);
+	box-shadow: inset -4px 0px 0px #ffcf28;
+}
+
+.sidebar__list-upper > ul > li > .sidebar__item:hover {
+	background: linear-gradient(
+		269.96deg,
+		#ffffff 0.03%,
+		rgba(255, 255, 255, 0.37) 0.04%,
+		rgba(255, 255, 255, 0.02) 99.97%,
+		rgba(255, 255, 255, 0.02) 99.97%
+	);
+}
+
+.sidebar__list-lower > ul > li > .sidebar__active {
+	background: linear-gradient(
+		269.96deg,
+		#ffffff 0.03%,
+		rgba(255, 255, 255, 0.37) 0.04%,
+		rgba(255, 255, 255, 0.02) 99.97%,
+		rgba(255, 255, 255, 0.02) 99.97%
+	);
+	box-shadow: inset -4px 0px 0px #ffcf28;
+}
+
+.sidebar__list-lower > ul {
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+.sidebar__list-lower > ul > li > button,
+.sidebar__list-lower > ul > li > a {
+	font-size: 12px;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin: 0px !important;
+	line-height: 15px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	width: 100%;
+	height: 43px;
+	background-color: #2266e2;
+	border-color: #2266e2;
+	border-radius: 0 !important;
+}
+
+.sidebar__list-lower > ul > li > button > img,
+.sidebar__list-lower > ul > li > a > img {
+	margin-right: 12px;
+	width: 14px;
+}
+
+.sidebar__list-lower > ul > li > a {
+	padding: 0.375rem 0.75rem;
+	text-decoration: none;
+}
+
+.sidebar__list-upper__interiorbutton__img__integrations {
+	position: relative;
+	right: 4px;
+	top: 3px;
+	margin-right: 4px !important;
+}
+
+.sidebar-license-mgmt-icon {
+	position: relative;
+	left: -4px !important;
+	top: 2px !important;
+}
+
+.sidebar-license-mgmt-text {
+	position: relative;
+	left: -8px !important;
+}
+
+.sidebar-renewals-icon {
+	position: relative;
+	top: 3px;
+	left: -2px;
+}
+
+.sidebar-renewals-text {
+	position: relative;
+	left: -5px;
+}
+
+.sidebar-vendors-icon {
+	position: relative;
+	top: 2px;
+	left: -3px;
+}
+
+.sidebar-vendors-text {
+	position: relative;
+	left: -6px;
+}
+
+.sidebar-licenses-icon {
+	position: relative;
+	top: -1px;
+	left: 1px;
+}
+
+.sidebar-licenses-text {
+	position: relative;
+	left: 1px;
+}
+
+.siderbar__chat__with__us__button {
+	width: 24px !important;
+	right: 4px !important;
+	position: relative !important;
+	top: 3px;
+	margin-right: 0px !important;
+}

@@ -1,0 +1,48 @@
+.licenseoptimization_wrapper {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+}
+.form-row {
+	padding: 0.5em;
+}
+.form-row > label {
+	padding: 0.5em 1em 0.5em 0;
+	flex: 1;
+}
+.form-row > select {
+	flex: 2;
+}
+.form-row > .select_width {
+	flex: 2;
+}
+.licenseoptimization_wrapper > .text_header {
+	color: #484848;
+	font-weight: 700;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.btn-row > .btn {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 25px;
+	margin: 10px 5px 0px 0px;
+}
+.btn-row > .btn-primary {
+	flex: 2;
+}
+
+.btn-row > .btn-light {
+	flex: 1;
+	border: 1px solid #2266e2;
+	color: #2266e2;
+}
+.description {
+	font-size: 9px;
+	line-height: 125%;
+	color: #717171;
+}

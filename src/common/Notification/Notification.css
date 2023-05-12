@@ -1,0 +1,197 @@
+.notifications {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 530px;
+	border: 1px solid #dddddd;
+}
+
+.notification_heading {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	color: #000000;
+}
+
+.notification_body {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 120px;
+	overflow-y: scroll;
+	height: 100%;
+	padding: 0.8em;
+	place-items: unset;
+}
+
+.notification_number {
+	top: 2px;
+	right: 0px;
+	font-size: 8px;
+	background-color: #ff6767;
+	color: #ffffff;
+	border-radius: 2em;
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+.mark_button {
+	height: 14px;
+	width: 14px;
+	border-radius: 100%;
+	border: 3px solid #ebebeb;
+}
+
+.mark_button.active {
+	background-color: rgb(255 7 7);
+}
+
+.card_container {
+	width: 100%;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.card_container:hover {
+	background-color: rgba(90, 186, 255, 0.08);
+}
+
+.card_heading {
+	color: #484848;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 3px;
+	max-width: 25vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card_description {
+	color: #484848;
+	font-size: 13px;
+	width: 400px;
+	white-space: break-spaces;
+}
+
+.card_time {
+	color: #717171;
+	opacity: 0.5;
+	font-size: 12px;
+}
+
+.notification_card_icon {
+	width: 38px;
+	border-radius: 100%;
+	height: 38px;
+}
+
+.notification_card_tag_name {
+	max-width: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #484848;
+}
+
+.notification_card_tag {
+	margin: 5px 5px 0px 0px;
+	display: flex;
+	background: rgba(235, 235, 235, 0.2);
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	text-decoration: none !important;
+	flex-direction: column;
+	padding: 0px 6px;
+}
+
+.notification_card_tag_icon {
+	width: 14px;
+	border-radius: 100%;
+	height: 14px;
+	border: 0.5px solid #dedede;
+	margin: auto 0px;
+}
+
+.tag_extra_info {
+	margin: auto auto auto 0px;
+}
+
+.tag_extra_info_icon {
+	width: 12px;
+	height: 12px;
+	margin: auto;
+	margin: auto 3px auto auto;
+}
+
+.tag_extra_info_value {
+	font-size: 9px;
+	color: #717171;
+	padding-top: 1px;
+}
+
+.more_data {
+	margin: auto;
+}
+
+.mark_all_as_read {
+	color: #2266e2;
+	font-size: 12px;
+	position: absolute;
+	left: 400px;
+	top: -1px;
+}
+
+.hideScrollBar {
+	-ms-overflow-style: none;
+	/* for Internet Explorer, Edge */
+	scrollbar-width: none;
+	/* for Firefox */
+	overflow-y: scroll;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+	display: none;
+	/* for Chrome, Safari, and Opera */
+}
+
+.bg_repeat_cover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bg_repeat_contain {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.notification_download_report_btn {
+	display: flex;
+	background: rgba(235, 235, 235, 0.2);
+	border: 0.5px solid #ebebeb;
+	border-radius: 4px;
+	padding: 4px 8px;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	width: 125px;
+}
+
+.notification_clear_all {
+	top: 4px;
+	right: 20px;
+	cursor: pointer;
+	font-size: 12px;
+	position: absolute;
+	border-radius: 4px;
+	z-index: 10000000000;
+	background-color: white;
+	border: 1px solid #dddddd;
+}

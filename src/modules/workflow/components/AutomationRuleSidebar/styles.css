@@ -1,0 +1,27 @@
+.run-playbook__wrapper {
+	background: #fcfcfc;
+	border: 1px solid #e8ecf8;
+	border-radius: 4px;
+}
+
+.run-playbook__title {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+
+	/* black */
+
+	color: #222222;
+}
+
+.run-playbook__dropdown {
+    width: 100%;
+    background: #E9EBF0;
+    border-radius: 4px;
+}

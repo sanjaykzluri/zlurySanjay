@@ -1,0 +1,70 @@
+.selection-cell-header th {
+	white-space: nowrap;
+}
+
+.min-width {
+	white-space: nowrap;
+}
+
+.table-header-text {
+	height: 21px;
+	display: flex;
+	align-items: center;
+}
+
+.workflow-table-header-container {
+	margin-left: 13px;
+}
+
+.workflow-table-header-container {
+	margin-left: 13px;
+}
+
+.table-header-sort-icons {
+	margin-right: 8px;
+	height: 21px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2px 0px;
+}
+
+.new-infinite-table-container {
+	flex: 1 1 0%;
+	padding: 0px 40px;
+	height: calc(100vh - 300px);
+	overflow: auto;
+	margin-top: 10px;
+}
+
+.searchquery-new-infinite-table-container {
+	flex: 1 1 0%;
+	padding: 0px 40px;
+	height: calc(100vh - 265px);
+	overflow: auto;
+	margin-top: 10px;
+}
+
+.new-infinite-table-header {
+	position: sticky;
+	top: -1px;
+	background-color: white;
+	z-index: 10;
+	box-shadow: inset 0 1px 0 #dddddd, inset 0 -2px 0 #dddddd;
+}
+
+.new-infinite-table-container-without-tabs {
+	flex: 1 1 0%;
+	padding: 0px 40px;
+	height: calc(100% - 264px);
+	overflow: auto;
+	margin-top: 10px;
+}
+
+.searchquery-new-infinite-table-container-without-tabs {
+	flex: 1 1 0%;
+	padding: 0px 40px;
+	height: calc(100% - 229px);
+	overflow: auto;
+	margin-top: 10px;
+}

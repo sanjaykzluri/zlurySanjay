@@ -1,0 +1,30 @@
+.permission {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	max-width: 428px;
+}
+.permission .head .title {
+	color: #484848;
+	line-height: 24px;
+	margin-left: 5px;
+	margin-right: 6px;
+	max-width: 350px;
+	min-width: 350px;
+}
+.permission .p-action {
+	margin-left: 1px;
+}
+
+.show-on-hover-content {
+	opacity: 0;
+}
+
+.permission-single-item:hover .show-on-hover-content {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.permission-single-item:hover .accordion {
+	background: rgba(245, 246, 249, 1);
+}

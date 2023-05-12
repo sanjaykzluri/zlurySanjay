@@ -1,0 +1,111 @@
+.tags {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #717171;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	background: rgba(90, 186, 255, 0.1);
+}
+
+.appplaybook_header {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #484848;
+	margin-bottom: 2px;
+}
+.appplaybook_subheader {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #484848;
+	opacity: 0.8;
+}
+
+.createplaybook {
+	max-width: 90%;
+	margin-top: 50px;
+}
+.content_class {
+	height: 75vh;
+}
+.empty_state {
+	background: #f5f6f9;
+	height: 201px;
+	margin-bottom: 5px;
+}
+
+.app-rule-card {
+	width: 100%;
+	max-width: 100%;
+	border: 1px solid #e8ecf8;
+	position: relative;
+	margin-right: 30px;
+	margin-bottom: 12px;
+}
+
+.when-rule {
+	color: #717171;
+}
+
+.app-trigger-rule {
+	color: #484848;
+}
+
+.rule-condition-count {
+	text-indent: 6px;
+	display: flex;
+	align-items: center;
+}
+
+.additional-setting-name {
+	display: flex;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #717171;
+	background: #fafbff;
+}
+
+.additional-setting-label {
+	font-weight: 600;
+	color: #484848 !important;
+}
+
+.rule-select-type {
+	background: #fff !important;
+}
+
+.rule-header-name {
+	font-weight: 600;
+	font-size: 18px;
+	color: #000000;
+}
+
+.app-rule-modal {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 90% !important;
+	max-width: 90% !important;
+	transform: translate(-50%, -50%) !important;
+}
+
+.additional-rule-active-info {
+	width: 12px;
+	height: 16px;
+}
+
+.additional-rule-inactive-info {
+	width: 6px;
+	height: 16px;
+}

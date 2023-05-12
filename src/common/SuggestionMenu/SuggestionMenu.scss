@@ -1,0 +1,30 @@
+.s-menu-container {
+	max-height: 250px;
+	z-index: 150;
+	background: #ffffff;
+	width: 100%;
+	position: absolute;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	overflow: auto;
+}
+
+.s-menu-item {
+	width: 100%;
+	border: none;
+	background: none;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	text-align: left;
+	padding: 12.5px;
+	display: flex;
+	align-items: center;
+}
+
+
+button.s-menu-item:focus {
+	outline: 0;
+}
+

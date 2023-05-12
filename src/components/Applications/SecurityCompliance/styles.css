@@ -1,0 +1,384 @@
+.securityoverview__wrapper {
+	display: flex;
+	flex-direction: row;
+	padding-left: 30px;
+}
+
+.securityoverview__left {
+	display: flex;
+	flex-direction: column;
+	padding-right: 16px;
+	margin: 30px 30px 30px 10px;
+	width: 350px;
+}
+
+.securityoverview__right {
+	width: calc(100% - 350px);
+	height: fit-content;
+	background-color: #fafbfc;
+	display: flex;
+	flex-direction: column;
+	padding-top: 9px;
+	padding-bottom: 40px;
+	min-height: calc(100vh - 185px);
+}
+
+.security__nav__item .nav-link,
+.security__nav__item .nav-link:hover {
+	border: 0.5px solid #dddddd;
+	border-color: #dddddd !important;
+}
+
+.security__nav__item:first-child .nav-link {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.security__nav__item:last-child .nav-link {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.security__nav__item .nav-link.active {
+	display: block;
+	box-shadow: none;
+	border: 1px solid #2266e2;
+	border-color: #2266e2 !important;
+	color: #2266e2;
+	background-color: #e9f0fc;
+}
+
+.security__nav__item {
+	margin-right: 0px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.securityoverview__item {
+	display: flex;
+	margin-top: 21px 0;
+}
+
+.securityoverview__item-name {
+	width: 100px;
+	font-size: 12px;
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #717171;
+	margin-top: 3px;
+}
+
+.security__dropdown__wrapper {
+	width: 153px;
+	padding: 7px 10px;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.security__dropdown__wrapper a,
+.security__dropdown__wrapper:hover a {
+	text-decoration: none !important;
+}
+
+.security__dropdown {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.security__dropdown__label {
+	background: #ebebeb;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	line-height: 11px;
+	/* black */
+	color: #222222;
+}
+
+.overview__dropdownbutton__d2.grey.bold-normal.text-capitalize {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.security__dropdown__menu {
+	transform: translate(0px, 32px) !important;
+	padding: 0 !important;
+}
+
+.grade {
+	background: #5fcf64;
+	border-radius: 3px;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 31px 0 0;
+}
+
+.grade span {
+	font-size: 24px;
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.grade_sm span {
+	font-size: 12px;
+}
+
+.gradeWrap .title {
+	font-size: 12px;
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
+	color: #717171;
+}
+
+.compilance {
+	font-size: 14px;
+	font-family: "Sora", sans-serif;
+	font-weight: normal;
+	color: #222222;
+}
+
+.grade_details {
+	display: flex;
+}
+
+.security_fields {
+	flex-grow: 1;
+}
+
+.security_fields .securityoverview__item {
+	margin: 9px 0;
+}
+
+.securityoverview__item-rate {
+	display: flex;
+	align-items: center;
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	width: 60%;
+	margin-top: 1px;
+}
+
+.securityoverview__item-rate .more {
+	color: #5abaff;
+}
+
+/* compilance Tabs */
+
+.compilance__item__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.compilance__item {
+	border: 1px solid #dddddd;
+	width: 210px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: #ffffff;
+	border-radius: 4px;
+	margin: 21px 8px;
+	cursor: pointer;
+}
+
+.compilance_logo {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 20px auto 8px;
+}
+
+.compliance_name {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #222222;
+	padding: 5px 10px;
+}
+
+.compilance_status {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	margin: 0 0 8px;
+}
+
+.compilance_status.approved {
+	color: #717171;
+}
+
+.compilance_status.in_review {
+	background: #effaf0;
+	border-radius: 13px;
+	color: #5fcf64;
+	padding: 0 10px;
+}
+
+.compilance_expiray {
+	width: 100%;
+	background: #ebebeb4d;
+	border-radius: 0px 0px 3px 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 12px 0 0;
+	padding: 10px;
+}
+
+.compilance_expiray .expiry {
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
+	font-size: 11px;
+	color: #717171;
+	margin: 0 10px 0 0;
+}
+
+.compilance_expiray .expiry_date {
+	font-family: "Sora", sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #484848;
+}
+
+.security_compliance_title {
+	font-family: "Sora", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	color: #222222;
+	margin: 0 0 12px;
+}
+
+.security__nav__tabs__wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap !important;
+}
+
+.compliance__Section__wrapper {
+	display: flex;
+	margin: 33px;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+
+.compliance__input {
+	background: rgba(235, 235, 235, 0.9);
+}
+
+.compliance-spinner.spinner-border {
+	width: 1rem;
+	height: 1rem;
+}
+
+.compliancead {
+	background: rgba(235, 235, 235, 0.3);
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	width: 39px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 14.25px;
+	border-radius: 4px;
+	height: 34px;
+}
+
+.compliancead:hover {
+	background: white;
+}
+
+.compliancead img {
+	width: 11px;
+	height: 11px;
+}
+
+.security__tabs__wrapper {
+	margin: 20px;
+	width: 100%;
+}
+
+.listViewDetails .label {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #484848;
+	width: 250px;
+}
+
+.listViewDetails .value {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	color: #717171;
+	width: 100%;
+	margin-left: 20px;
+}
+
+.compliance__title {
+	background: #ebebeb;
+	padding: 22px;
+}
+
+.compliance__title__header {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1500px) {
+	.table_scroll_sm {
+		width: calc(100vh - 10px);
+		overflow: scroll;
+	}
+}
+
+.complianceSearchBox {
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.complianceCard {
+	border-radius: 6px;
+	border: 1px solid #ebebeb;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.security_grade {
+	width: 45px;
+	height: 45px;
+}
+
+.expiry_date_calendar_container {
+	top: 36px !important;
+	left: -136px !important;
+}

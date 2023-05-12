@@ -1,0 +1,89 @@
+.empty-header {
+	font-size: 18px;
+	line-height: 22.68px;
+	margin-bottom: 6px;
+	color: #717171;
+}
+
+.empty-lower {
+	font-size: 14px;
+	line-height: 21px;
+	max-width: 275px;
+	text-align: center;
+	color: #717171;
+	margin-bottom: 5px;
+	opacity: 0.6;
+}
+
+.empty-page-button {
+	padding: 20px 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	height: 34px;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	/* white */
+
+	color: #ffffff;
+
+	/* primary */
+	border: none;
+	background: #2266e2;
+	border-radius: 4px;
+}
+
+button.empty-page-button:disabled {
+	opacity: 0.5;
+}
+
+.emptyLicense {
+	width: 438px;
+	border: 1px dashed rgba(113, 113, 113, 0.5);
+	min-height: 250px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+}
+
+.emptyDocuemt {
+	border: 1px dashed rgba(113, 113, 113, 0.5);
+	min-height: 250px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+}
+
+.emptyDocImage {
+	width: fit-content;
+}
+
+.emptyDocDescription {
+	font-size: 12px;
+	font-size: normal;
+	text-align: center;
+	color: #222222;
+	opacity: 0.8;
+}
+
+.emptyDocButtonText {
+	font-size: 13px;
+	width: fit-content;
+}
+
+.emptyDocButton {
+	margin-top: 17px;
+}
+
+.emptyDocButton img {
+	content: url("../components/Applications/Contracts/add.svg");
+}
+
+.emptyDocButton:hover img {
+	content: url("../assets/addwhite.svg");
+}

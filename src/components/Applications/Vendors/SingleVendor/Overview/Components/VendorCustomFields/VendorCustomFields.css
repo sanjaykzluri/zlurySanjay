@@ -1,0 +1,11 @@
+.vendor_custom_fields_container {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+	max-width: 700px;
+}
+
+.vendor_custom_fields {
+	min-width: 180px;
+	margin-top: 5px;
+}

@@ -1,0 +1,14 @@
+.no-user-found-div {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.no-user-found-image {
+	width: 150px;
+	height: 150px;
+}
+.font-9 {
+	font-size: 9px;
+}

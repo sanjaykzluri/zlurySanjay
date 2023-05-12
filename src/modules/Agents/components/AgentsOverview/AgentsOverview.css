@@ -1,0 +1,15 @@
+.agentsoverview__cont{
+    padding-left: 40px;
+    padding-right: 42px;
+    display: flex;
+    flex-direction: column;
+}
+.agentsoverview__cont__d1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.agentsoverview__cont__d2{
+    display: flex;
+    flex-direction: column;
+}

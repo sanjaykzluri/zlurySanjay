@@ -1,0 +1,91 @@
+.licenseinfotable__row {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.licenseinfotable__row__box__border {
+	position: absolute;
+	top: -45px;
+	height: 463px;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #717171;
+	padding-top: 17px;
+}
+
+.licenseinfotable__row__oarrow {
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 16px solid;
+	border-color: #ffe4cd #ffe4cd transparent transparent;
+	transform: rotate(45deg);
+}
+.licenseinfotable__row__oarrow:before {
+	content: "";
+	position: absolute;
+	right: -3px;
+	display: block;
+	width: 32px;
+	height: 26px;
+	background: linear-gradient(
+		269.17deg,
+		#ffe4cd 14.62%,
+		rgba(255, 239, 225, 0) 103.32%
+	);
+	transform: rotate(-45deg) translate(3px, 0px);
+}
+.licenseinfotable__row__greyarrow {
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 16px solid;
+	border-color: #ebebeb #ebebeb transparent transparent;
+	transform: rotate(45deg);
+}
+.licenseinfotable__row__greyarrow:before {
+	content: "";
+	position: absolute;
+	right: -3px;
+	display: block;
+	width: 32px;
+	height: 26px;
+	background: linear-gradient(
+		269.17deg,
+		#ebebeb 14.62%,
+		rgba(255, 239, 225, 0) 103.32%
+	);
+	transform: rotate(-45deg) translate(3px, 0px);
+}
+.licenseinfotable__row__arrow__text {
+	position: absolute;
+	transform: rotate(-45deg) translate(2px, 1px);
+	right: -2.5px;
+}
+
+.licenseinfotable__row__garrow {
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 16px solid;
+	border-color: #dff5e0 #dff5e0 transparent transparent;
+	transform: rotate(45deg);
+}
+.licenseinfotable__row__garrow:before {
+	content: "";
+	position: absolute;
+	right: -3px;
+	display: block;
+	width: 32px;
+	height: 26px;
+	background: linear-gradient(
+		269.17deg,
+		#dff5e0 14.62%,
+		rgba(223, 245, 224, 0) 103.32%
+	);
+	transform: rotate(-45deg) translate(3px, 0px);
+}

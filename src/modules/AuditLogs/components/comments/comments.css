@@ -1,0 +1,68 @@
+.input_field::placeholder {
+	color: #ffffff;
+}
+
+.comment_button {
+	color: #2266e2;
+	background-color: #f6f7fc;
+	font-size: 10px;
+	padding: 3px 3px;
+	border-radius: 12px;
+	border: 0;
+}
+.box {
+	position: relative;
+	height: 29px;
+	background: #f6f7fc;
+	border: 1px solid rgba(235, 235, 235, 0.5);
+	font-family: "Sora";
+	font-size: 10px;
+	width: 100%;
+	padding: 5px;
+}
+.box.arrow-left:before {
+	content: " ";
+	position: absolute;
+	left: -20px;
+	top: 3px;
+	border-width: 10px;
+	border-color: transparent #f6f7fc transparent transparent;
+	border-style: solid;
+}
+.comment_box {
+	height: 43px;
+	background: rgba(246, 247, 252, 0.5);
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	width: 100%;
+	padding: 5px;
+}
+.input_field {
+	width: 100% !important;
+	background: #2266e2;
+	padding-right: 40px;
+	padding-left: 10px;
+	font-family: "Sora";
+	color: #ffffff !important;
+}
+
+.input-with-icon {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.input-with-icon .icon {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 30px;
+	height: 30px;
+	border-radius: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}

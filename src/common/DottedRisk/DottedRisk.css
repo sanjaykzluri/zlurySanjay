@@ -1,0 +1,10 @@
+.dotRisk__cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dotRisk__dot {
+    border-radius: 8px;
+}

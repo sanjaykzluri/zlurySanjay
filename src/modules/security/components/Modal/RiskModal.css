@@ -1,0 +1,15 @@
+.securityRiskModal {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 581px;
+	border: 1px solid #dddddd;
+}
+.truncate-name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 35%;
+}

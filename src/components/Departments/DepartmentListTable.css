@@ -1,0 +1,7 @@
+.dept-hierarchy-disabled__row-expansion:hover {
+    cursor: not-allowed;
+}
+
+.dept-expand__svg-color {
+    filter: invert(45%) sepia(72%) saturate(5737%) hue-rotate(207deg) brightness(90%) contrast(97%)
+}

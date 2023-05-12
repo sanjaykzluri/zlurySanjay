@@ -1,0 +1,16 @@
+.actor_name {
+    line-height: 13px;
+    margin:5px;
+}
+.actor {
+    font-size: 10px;
+    color: #717171;
+    margin:5px;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: capitalize;
+}

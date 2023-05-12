@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	font-family: "Sora", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+*,
+*:focus,
+*:hover {
+	outline: none;
+}
+
+SELECT {
+	background: transparent url("assets/dropdownIcon.png") right 20px no-repeat !important;
+	background-position: calc(100% - 5px) center !important;
+}
+
+select{
+	-webkit-appearance: none;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #e9ecef !important;
+	opacity: 1;
+}
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

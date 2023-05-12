@@ -1,0 +1,12 @@
+.custom__moreitemstodisplay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 82px;
+    height: 24px;
+    background: #EBEBEB;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    justify-content: center;
+}

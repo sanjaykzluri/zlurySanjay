@@ -1,0 +1,282 @@
+.truncate-license-name-in-popover {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.license-details-toggle-btns {
+	display: flex;
+	cursor: pointer;
+	background: rgba(90, 186, 255, 0.1);
+	border-radius: 2px;
+	padding: 2px 4px;
+	height: 24px;
+	align-items: center;
+}
+
+.contract-details-fields {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	background: #f8f9fb;
+	border-radius: 4px;
+	width: 470px;
+	margin-bottom: 2px;
+	padding-left: 10px;
+}
+
+.contract-details-field-input {
+	border: none;
+	background: #f8f9fb;
+	height: 20px;
+	width: 100px;
+	font-size: 12px;
+}
+
+.contract-currency-select {
+	width: 50px;
+	height: 20px;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-left: 6px;
+	padding-left: 4px;
+}
+
+.contract-discount-type-select {
+	width: 60px;
+	height: 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-left: 6px;
+	padding-left: 4px;
+	color: grey;
+}
+
+.checklistSearchInput input[type="text"] {
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 8px;
+	height: 34px;
+	width: 100%;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	background-color: white;
+}
+
+.checklistSearchInput {
+	position: relative;
+}
+
+.checklistSearchInput img {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	padding: 9px 8px;
+	color: #aaa;
+	transition: 0.3s;
+}
+
+.checklistSuggestionPopover {
+	position: absolute;
+	width: 100%;
+	top: 25px;
+	padding: 2px;
+	cursor: pointer;
+}
+
+.checklistSuggestionOptions {
+	font-size: 16;
+	padding: 10px;
+}
+
+.checklistSuggestionOptions:hover {
+	background: rgba(90, 186, 255, 0.1);
+	border-radius: 2px;
+}
+
+.active-status-pill {
+	display: flex;
+	align-items: center;
+	width: 53px;
+	padding: 1px 4px;
+	background: rgba(64, 227, 149, 0.1);
+	border-radius: 11px;
+}
+
+.inactive-status-pill {
+	display: flex;
+	align-items: center;
+	width: 53px;
+	padding: 1px 4px;
+	background: #ebebeb;
+	border-radius: 11px;
+}
+
+.expired-status-pill {
+	display: flex;
+	align-items: center;
+	width: 60px;
+	padding: 1px 4px;
+	background: #ebebeb;
+	border-radius: 11px;
+}
+
+.cancelled-status-pill {
+	display: flex;
+	align-items: center;
+	width: 74px;
+	padding: 1px 4px;
+	background: #ebebeb;
+	border-radius: 11px;
+}
+
+.license_form_modal {
+	width: 875px;
+	height: 600px;
+}
+.license_form_modal_contract {
+	width: 977px;
+	height: 600px;
+}
+
+.license_form_fields_div {
+	padding: 20px 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.selected_license_type {
+	width: 140px;
+	height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #e9f0fc;
+	border: 1px solid #2266e2;
+	box-shadow: 0px 2px 6px #e9f0fc;
+	font-weight: 400;
+	font-size: 14px;
+	color: #2266e2;
+	cursor: pointer;
+}
+
+.deselected_license_type {
+	width: 140px;
+	height: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	font-weight: 400;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.license_form_discount_value {
+	width: 100px !important;
+}
+
+.qty_split_form_discount_value {
+	width: 55px !important;
+}
+
+.license_form_discount_type {
+	width: 100px !important;
+}
+
+.qty_split_form_discount_type {
+	width: 55px !important;
+}
+
+.split_section_container {
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	border: 1px solid #e8ecf8;
+	border-radius: 4px;
+	padding: 10px;
+	width: fit-content;
+}
+
+.split_section_headers {
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+}
+
+.license_details_section_headers {
+	background-color: #f8f9fb;
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	padding: 4px 0px;
+}
+
+.groups_license_cost_field {
+	width: 80px !important;
+}
+
+.license_form_fields_div {
+	height: 475px;
+	overflow-y: auto;
+}
+
+.license_form_footer {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 15px;
+}
+
+.license_and_group_row_container {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	background: #ffffff;
+	border: 1px solid #e8ecf8;
+	border-radius: 4px;
+	margin-top: 8px;
+}
+
+.license_row {
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	background: #f8f9fb;
+	border: 1px solid #e8ecf8;
+	border-radius: 4px;
+	height: 48px;
+}
+
+.group_row {
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	height: 42px;
+	border-bottom: 1px solid #e8ecf8;
+}
+
+.add_license_button {
+	cursor: pointer;
+	background: #ffffff;
+	border: 1px dashed #bfc6da;
+	border-radius: 4px;
+	height: 47px;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2266e2;
+	margin-top: 4px;
+}
+
+.split_section_form {
+	width: fit-content;
+}

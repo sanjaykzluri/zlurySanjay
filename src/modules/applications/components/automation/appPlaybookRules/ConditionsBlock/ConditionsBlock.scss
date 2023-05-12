@@ -1,0 +1,117 @@
+.rule-block button {
+	background: transparent !important;
+	border-color: #2266e2 !important;
+	width: 100%;
+	text-align: left;
+	color: #2266e2 !important;
+}
+
+.app-workflow-trigger-row > div {
+	border: 1px solid #e8ecf8;
+}
+
+// .app-rule-attribute-condition-row .z-select,
+// .app-workflow-trigger-row .z-select {
+// 	min-width: 130px;
+// }
+
+.app-rule-attribute-condition-row div.z-select.attribute-operators-select div,
+.app-workflow-trigger-row div.z-select.attribute-operators-select div {
+	text-transform: lowercase;
+}
+
+.app-rule-attribute-condition-row button,
+.app-workflow-trigger-row button {
+	width: 62px;
+	text-transform: uppercase;
+	color: #5abaff !important;
+	border-color: #5abaff !important;
+}
+
+.app-attribution-conditon-block,
+.app-workflow-rule-block {
+	position: relative;
+}
+
+.app-attribution-conditon-block:not(:first-child)::before {
+	content: "or";
+	position: relative;
+	left: 50%;
+	font-weight: 600;
+	color: #484848;
+	background: url("../../../../../../assets/line.png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	// padding: 4px 0;
+	background-size: contain;
+}
+
+.app-attribution-when-block,
+.app-workflow-rule-block {
+	position: relative;
+}
+
+.rule-if-attribute {
+	// min-width: 208px !important;
+	max-width: 296px;
+	border: none;
+	background: rgba(34, 102, 226, 0.1);
+	margin-left: 16px;
+}
+
+.rule-if-operator {
+	// min-width: 208px !important;
+	border: none !important;
+	background: rgb(229 236 252 / 0%);
+}
+
+.rule-attribute-content {
+	background: rgba(34, 102, 226, 0.1);
+}
+
+.rule-attribute-content::-webkit-input-placeholder {
+	color: #2266e2 !important;
+	// background: rgba(34, 102, 226, 0.1);
+}
+
+.rule-after-operator {
+	border: none !important;
+	background: rgb(229 236 252 / 0%);
+}
+
+.create-rule-font {
+	color: #484848;
+}
+
+.if-condition-button {
+	background: rgba(241, 243, 250, 0.6) !important;
+	border-radius: 0px 4px 4px 0px;
+	max-width: 64px;
+}
+
+.rule-select-placeholder {
+	color: #2266e2;
+	font-size: 13px;
+}
+
+.rule-form-error {
+	font-size: 10px;
+	line-height: 140.3%;
+	color: #ff6767;
+	opacity: 0.8;
+	margin-left: 28px;
+	margin-top: 4px;
+}
+
+.rule-select-form-error {
+	border: 1px solid #ff6767 !important;
+}
+
+.rule-option-style {
+	font-size: 13px !important;
+	line-height: 19px !important;
+}
+
+.rule-select-options {
+	min-width: 120px;
+}

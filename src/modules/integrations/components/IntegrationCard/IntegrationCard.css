@@ -1,0 +1,18 @@
+.z_i_card{
+    width: 184px;
+    max-width: 184px;
+    min-width: 184px;
+    min-height: 290px;
+    position: relative;
+}
+
+.z_i_card:hover{
+    box-shadow: 0px 0px 1px 1px rgb(0 0 0 / 10%);
+}
+
+.z_i_card button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}

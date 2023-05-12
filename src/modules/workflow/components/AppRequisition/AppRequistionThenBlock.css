@@ -1,0 +1,24 @@
+.tab__button__wrapper {
+	display: flex;
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	border-radius: 4px;
+	width: fit-content;
+	color: #222222;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+}
+
+.tab__button {
+	padding: 7px 22px;
+}
+
+.tab__button.tab__button__active {
+	background: #e9f0fc;
+	color: #2266e2;
+	border: 1px solid #2266e2;
+	border-radius: 4px;
+}

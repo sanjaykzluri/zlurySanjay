@@ -1,0 +1,20 @@
+.headingText  {
+    font-style: normal;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+}
+
+.rightHeading {
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.descriptionText {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    justify-content: center;
+}

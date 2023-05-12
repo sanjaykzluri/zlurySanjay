@@ -1,0 +1,89 @@
+.mfa-icon-container{
+    border: 2px solid;
+    border-image-source: linear-gradient(150.04deg, #5454D4 8.17%, rgba(249, 116, 104, 0.27) 92.69%); 
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #5454d4a2,rgba(249, 116, 104, 0.164));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: relative;
+}
+
+.mfa-active .mfa-icon-container{
+    border-image-source: linear-gradient(150.04deg, #5FCF64 59.67%, #2266E2 92.69%); 
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #5fcf655d,#2265e24f);
+}
+.mfa-icon-container img:last-child{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mfa-icon-container img.mfa-card-check{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background: #fff;
+}
+
+
+.mfa-type-card{
+    background-color: #fff;
+    min-width: 190px;
+}
+
+.mfa-type-card:hover{
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+.onboarding-layout{
+    border-top: 4px solid #2266E2;
+    background: #F9FAFE;
+    min-height: 100vh;
+    position: relative;
+}
+
+footer.mfa-onboarding-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #F9FAFE;
+}
+
+footer.mfa-onboarding-footer ul{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* modal */
+.mfa-modal{
+    max-width: 529px;
+    margin: 0 auto;
+}
+
+.mfa-modal .modal-header{
+    background-color: #EBEBEB;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.mfa-verification-content{
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.mfa-settings .mfa-icon-container{
+    max-width: 45px;
+    max-height: 40px;
+    min-width: 45px;
+    min-height: 45px;
+}
+
+.mfa-settings .mfa-icon-container img.mfa-card-check{
+    top: -5%;
+    right: -15%;
+}

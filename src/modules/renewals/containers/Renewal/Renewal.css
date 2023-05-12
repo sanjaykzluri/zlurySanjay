@@ -1,0 +1,17 @@
+.is-payment-renewal {
+	background: #fff2ec;
+	border-radius: 2px;
+	color: #fda278;
+	height: 10px;
+	font-size: 8px;
+	padding: 2px;
+}
+
+.is-not-payment-renewal {
+	background: #f4f2ff;
+	border-radius: 2px;
+	color: #8b76ff;
+	height: 10px;
+	font-size: 8px;
+	padding: 2px;
+}

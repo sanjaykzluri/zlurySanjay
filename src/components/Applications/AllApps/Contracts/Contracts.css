@@ -1,0 +1,592 @@
+.addContractModal__TOP {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 529px;
+	border: 1px solid #dddddd;
+}
+.add__btn__row {
+	width: 58px;
+	height: 53px;
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.licenseCard {
+	min-width: 250px;
+	height: 53px;
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+}
+.licenseCard_overview {
+	width: 438px;
+	height: 92.64px;
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+}
+.licenseRow_end {
+	width: 60px;
+	height: 53px;
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: Sora;
+	font-style: normal;
+	font-size: 10px;
+	line-height: 18px;
+}
+.licenseCard__left__div {
+	min-width: 185px;
+}
+.licenseCard_overview__left__div {
+	width: 311px;
+}
+.licenseCard__right__div {
+	width: 72px;
+	border-right-color: #ebebeb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 53px;
+}
+.licenseCard_overview__right__div {
+	border-right-color: #ebebeb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 125px;
+}
+.licenseCard__right__row__1 {
+	margin: 7px 0px 0px 0px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: right;
+	color: #5abaff;
+	text-align: center;
+}
+.licenseCard_overview__right__row__1 {
+	margin: 25px 0px 0px 0px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	color: #5abaff;
+}
+.licenseCard__right__row__2 {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-size: 10px;
+	font-family: Sora;
+	color: #717171;
+	line-height: 10px;
+}
+.licenseCard_overview__right__row__2 {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: rgba(113, 113, 113, 0.7);
+}
+.licenseCard_overview__row__1 {
+	margin: 20px 31px 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+}
+.licenseCard_overview__row__1__div2 {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+}
+.metric__fields__container {
+	border: 1px solid rgba(113, 113, 113, 0.2);
+	box-sizing: border-box;
+	border-radius: 4px;
+	position: relative;
+	left: -48px;
+	top: -15px;
+	width: 120%;
+	transform: scale(0.85);
+	background-color: rgba(235, 235, 235, 0.2);
+	padding: 10px 4px 0px 4px;
+}
+.metric__row {
+	display: flex;
+	flex-direction: row;
+}
+.metric__row__padding {
+	padding-right: 3px;
+}
+.licenseCard_overview__row__2 {
+	margin: 10px 31px 20px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #717171;
+}
+.licenseCard__row__1 {
+	margin: 7px 11px 0px 11px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+}
+.licenseCard__row__1__div2 {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+}
+.licenseCard__row__2 {
+	margin: 0px 3px 7px 11px;
+	display: flex;
+	flex-direction: row;
+	font-size: 10px;
+	font-family: Sora;
+	color: #717171;
+}
+.licenseOverview {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.licenseRow {
+	/* display: flex;
+	width: 100%;
+	height: 70px;
+	align-self: flex-start;
+	background: rgba(235, 235, 235, 0.2);
+	z-index: 1;
+	position: fixed;
+	margin-top: 25px;
+	margin-left: -100%;
+	flex-direction: row; */
+	width: 100%;
+	height: 70px;
+	transform: "translateX(-39%)";
+	left: unset;
+	margin-left: 40px;
+}
+.license__box {
+	position: relative;
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+}
+.deleteLicenseBtn {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.license__box__inner {
+	margin: 20px 20px 0px 20px;
+}
+.metric__btn {
+	height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.metric__addoc {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2266e2;
+}
+.metric_margin {
+	margin-top: 14px;
+}
+.metric_dropdown {
+	width: 200px;
+}
+.addLicenseContractModal__TOP {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 617px;
+	border: 1px solid #dddddd;
+	overflow-y: scroll;
+}
+.addLicenseContractModal__body_upper {
+	margin: 0px 34px 0px 34px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	min-height: 120px;
+	height: 80%;
+}
+.addLicenseContractModal__body_upper_inner {
+	width: 100%;
+	margin: 12px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.addContractModal__body_upper {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	min-height: 120px;
+	overflow-y: scroll;
+	height: 80%;
+}
+.selectpaymentterm {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+.addContractModal__body_upper_inner {
+	width: 80%;
+	margin: 12px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.addContractModal__body_lower {
+	display: flex;
+	background: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 223px;
+	overflow-y: auto;
+}
+
+.addContractModal__body_lower_inner {
+	width: 80%;
+	margin: 12px 0px 12px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 12px;
+}
+.addContractModal__footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 72px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.contracts__heading {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+}
+.addContract__foothr {
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 100%;
+	position: absolute;
+	bottom: 62px;
+}
+.License__adddoc {
+	display: flex;
+	flex-direction: column;
+	border: 1px dashed #979797;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+}
+.Contract__adddoc {
+	display: flex;
+	flex-direction: column;
+	border: 1px dashed #000000;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 135px;
+	justify-content: center;
+	align-items: center;
+}
+.Contract__adddoc3 > button {
+	width: 149px;
+	height: 34px;
+	left: 190px;
+	top: 1060px;
+
+	/* primary */
+
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 4px;
+	background: white;
+	color: #2266e2;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+}
+.contractsINS__cont {
+	display: flex;
+	flex-direction: column;
+}
+.contractsINS__div1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 92px;
+	margin-left: 40px;
+}
+.contractsINS__div1left {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: center;
+	height: 100%;
+}
+.contractsINS__div1left__1 {
+	/* Contract Name */
+
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #000000;
+
+	opacity: 0.8;
+}
+.contractsINS__div1left__2 {
+	/* Adobe-CC-Design-Annual */
+
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+
+	/* black */
+	color: #222222;
+}
+.contractsIND__div1right {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+.contractsins__mid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 156px;
+	background: rgba(235, 235, 235, 0.2);
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 25px;
+}
+.contractsins__text {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	/* black */
+
+	color: #222222;
+}
+.overview__middle__topconttext111 {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	/* or 162% */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.contractsins__bottom {
+	display: flex;
+	flex-direction: row;
+	min-height: 350px;
+	margin-top: 15px;
+}
+.contractsins__bottomdivleft {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 40%;
+	margin-left: 40px;
+	min-height: 350px;
+	justify-content: space-between;
+}
+.contractsins__bottomdivleft__div1 {
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+	line-height: 18px;
+	flex-direction: column;
+	color: #484848;
+}
+.contractsins__bottomdivleft__div2head {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #000000;
+}
+.contractsins__bottomdivleft__div2body {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	/* black */
+
+	color: #222222;
+}
+.contractsins__bottomdivleft__div3 {
+	display: flex;
+	flex-direction: row;
+	height: 43px;
+}
+.contractsins__bottomdivleft__div3div1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 43px;
+	flex: 1;
+}
+.contractsins__bottomdivleft__div4 {
+	height: 43px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contractsins__bottomdivleft__div5 {
+	display: flex;
+	flex-direction: row;
+	height: 43px;
+}
+.contractsins__bottomdivright {
+	display: flex;
+	flex-direction: column;
+	min-height: 350px;
+	flex-basis: 40%;
+	margin-left: 40px;
+}
+.contractins__bottomdivright__div1 {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+	align-items: center;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.contractins__bottomdivright__div1__1 {
+	flex-basis: 80%;
+}
+.contractins__bottomdivright__div1__2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	width: 149px;
+	height: 34px;
+	border-radius: 4px;
+	border: none;
+	background: white;
+}
+.aaaaaa {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+
+	/* primary */
+
+	color: #2266e2;
+	margin-left: 7px;
+}
+.contractins__bottomdivright__div2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 18px;
+}
+.contractins__new__head {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	/* identical to box height */
+
+	/* grey-2 */
+
+	color: #717171;
+	opacity: 0.7;
+}

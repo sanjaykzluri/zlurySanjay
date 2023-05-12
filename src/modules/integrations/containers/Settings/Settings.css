@@ -1,0 +1,26 @@
+.z_i_app_security_note {
+	background: rgba(90, 186, 255, 0.1);
+	border: 1px solid #5abaff;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.help_text_admin_view {
+	width: 30% !important;
+	position: absolute;
+	right: -10%;
+	top: 10%;
+	padding: 20px;
+}
+
+.password-field-show-hide-btn {
+	cursor: pointer;
+	position: absolute;
+	left: auto;
+	top: 8px;
+}
+
+.password-field-text-input {
+	height: 34px !important;
+	width: calc(100% - 25px) !important;
+}

@@ -1,0 +1,61 @@
+.select-user-mt button.s-menu-item {
+	font-size: 12px;
+}
+
+.assigned__via__dropdownbutton {
+	position: relative;
+	/* width: fit-content; */
+	width: max-content;
+	height: 25px;
+	/* border: 1px solid #dddddd; */
+	box-sizing: border-box;
+	border-radius: 30px;
+	background: white;
+	transition: 0.4s ease-in;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 10.33px;
+}
+.assigned__via__dropdownbutton__d2 {
+	font-size: 12px;
+	line-height: 12px;
+	color: #5abaff;
+	margin-left: 3.33px;
+	margin-right: 4px;
+	width: max-content;
+	padding: 4px;
+}
+.assigned__via__dropdownbutton__d2__normal {
+	font-size: 12px;
+	line-height: 12px;
+	/* color: #5abaff; */
+	/* margin-left: 5.33px; */
+	margin-right: 4px;
+	width: max-content;
+}
+.assigned__via__dropdownbutton:focus {
+	outline: none;
+}
+
+.z-select-new {
+	display: flex;
+	align-items: center;
+	border: 0px solid #e8ecf8 !important;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 0px 10px;
+	position: relative;
+	cursor: pointer;
+	background: #e8ecf8 !important;
+	width: 100%;
+	min-height: 28px !important;
+	color: #2266e2 !important;
+	min-width: 150px;
+}
+
+.z-select-placeholder-new {
+	color: #2266e2 !important;
+	margin: 0.5rem;
+}

@@ -1,0 +1,64 @@
+.ov__table1 {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.ov__table1__thead th {
+	text-align: left;
+	border-bottom: 1px dashed #dddddd;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+
+	color: #717171;
+	opacity: 0.7;
+}
+
+.ov__table1__thead button {
+	background: inherit;
+	border: none;
+	border-radius: none;
+	font-family: inherit;
+
+	font-size: inherit;
+	padding: 0.5em 0px;
+	margin-bottom: 1px;
+}
+.ov__table1__thead button:focus {
+	outline: none;
+}
+
+.ov__table1__thead button.ascending::after {
+	content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI1IiB2aWV3Qm94PSIwIDAgNyA1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPHBhdGggZD0iTTAgMEg3TDMuNSA1TDAgMFoiIGZpbGw9IiM3MTcxNzEiLz4NCjwvc3ZnPg0K);
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.ov__table1__thead button.descending::after {
+	content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI1IiB2aWV3Qm94PSIwIDAgNyA1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPHBhdGggZD0iTTAgMEg3TDMuNSA1TDAgMFoiIGZpbGw9IiM3MTcxNzEiLz4NCjwvc3ZnPg0K);
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.ov__table1__tbody td {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	/* black */
+	margin: 8px 0px;
+	color: #222222;
+	text-align: left;
+	height: 40px;
+}
+.table__overview__newtext {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	/* black */
+
+	color: #222222;
+	margin-left: 10px;
+}

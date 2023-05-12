@@ -1,0 +1,650 @@
+.addContractModal__TOP {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 529px;
+	border: 1px solid #dddddd;
+}
+
+.selectpaymentterm {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+.addContractModal__body_upper_inner {
+	width: 80%;
+	margin: 12px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.addContractModal__body_lower {
+	display: flex;
+	background: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 223px;
+	overflow-y: auto;
+}
+
+.addContractModal__body_lower_inner {
+	width: 80%;
+	margin: 12px 0px 12px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 12px;
+}
+.addContractModal__footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 72px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.contracts__heading {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+}
+.addContract__foothr {
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 100%;
+	position: absolute;
+	bottom: 62px;
+}
+.Contract__adddoc {
+	display: flex;
+	flex-direction: column;
+	border: 1px dashed #000000;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 204px;
+	justify-content: center;
+	align-items: center;
+}
+.Contract__adddoc3 > button {
+	width: 149px;
+	height: 34px;
+	left: 190px;
+	top: 1060px;
+
+	/* primary */
+
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 4px;
+	background: white;
+	color: #2266e2;
+
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+}
+.contractsINS__cont {
+	display: flex;
+	flex-direction: column;
+}
+.contractsINS__div1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 92px;
+	margin-left: 40px;
+}
+.contractsINS__div1left {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: center;
+	height: 100%;
+}
+.contractsINS__div1left__1 {
+	/* Contract Name */
+
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #000000;
+
+	opacity: 0.8;
+}
+.contractsINS__div1left__2 {
+	/* Adobe-CC-Design-Annual */
+
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+
+	/* black */
+	color: #222222;
+}
+.contractsIND__div1right {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+.contractsins__mid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 156px;
+	background: rgba(235, 235, 235, 0.2);
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 25px;
+}
+.contractsins__text {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	/* black */
+
+	color: #222222;
+}
+.overview__middle__topconttext111 {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	/* or 162% */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.contractsins__bottom {
+	display: flex;
+	flex-direction: row;
+	min-height: 350px;
+	margin-top: 15px;
+}
+.contractsins__bottomdivleft {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 40%;
+	margin-left: 40px;
+	min-height: 350px;
+	justify-content: space-between;
+}
+.contractsins__bottomdivleft__div1 {
+	height: 40px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+	line-height: 18px;
+	flex-direction: column;
+	color: #484848;
+}
+.days_left_overview {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+}
+.contractsins__bottomdivleft__div__fields {
+	height: 43px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.contractsins__bottomdivleft__div2 {
+	height: 43px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #484848;
+}
+.contractsins__bottomdivleft__div2head {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #000000;
+}
+.contractsins__bottomdivleft__div2body {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	min-width: 100px;
+	color: #222222;
+}
+.contractsins__bottomdivleft__div3 {
+	display: flex;
+	flex-direction: row;
+	height: 43px;
+}
+.contractsins__bottomdivleft__div3div1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 43px;
+	flex: 1;
+}
+.contractsins__bottomdivleft__div4 {
+	height: 43px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contractsins__bottomdivleft__div5 {
+	display: flex;
+	flex-direction: row;
+	height: 43px;
+}
+.contractsins__bottomdivright {
+	display: flex;
+	flex-direction: column;
+	min-height: 350px;
+	flex-basis: 40%;
+	margin-left: 40px;
+}
+.contractins__bottomdivright__div1 {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+	align-items: center;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	width: 100%;
+	/* identical to box height */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.contractins__bottomdivright__div1__1 {
+	flex-basis: 80%;
+}
+.contractins__bottomdivright__div1__2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	width: 149px;
+	height: 34px;
+	border-radius: 4px;
+	border: none;
+	background: white;
+}
+.aaaaaa {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+
+	/* primary */
+
+	color: #2266e2;
+	margin-left: 7px;
+}
+.contractins__bottomdivright__div2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 18px;
+}
+.contractins__new__head {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	/* identical to box height */
+
+	/* grey-2 */
+
+	color: #717171;
+	opacity: 0.7;
+}
+.new__calendar__div {
+	background: #ffffff;
+	/* grey-3 */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 40px;
+	position: relative;
+
+	padding-left: 17px;
+}
+.new__calendar__div > div {
+	position: initial;
+	top: 46px;
+	z-index: 33;
+}
+.react-calendar__navigation {
+	height: 40px !important;
+	margin-bottom: 0px !important;
+	box-shadow: inset 0px -1px 0px #f0f0f0 !important;
+}
+.react-calendar {
+	width: 280px !important;
+
+	border: 0.5px solid #ebebeb !important;
+
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.08) !important;
+	border-radius: 4px !important;
+}
+.react-calendar__tile--active {
+	background: #2266e2 !important;
+	border-radius: 2px !important;
+	color: white !important;
+}
+.react-calendar__month-view__days__day--weekend,
+.react-calendar__month-view__days__day {
+	color: #717171 !important;
+}
+.react-calendar__tile--active {
+	color: #fff !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+	color: #dddddd !important;
+}
+.react-calendar__month-view__weekdays__weekday {
+	font-weight: normal !important;
+	font-size: 14px !important;
+	line-height: 28px !important;
+	/* or 200% */
+
+	/* grey-2 */
+
+	color: #717171 !important;
+	text-decoration: none !important;
+	padding-bottom: 0px !important;
+}
+.react-calendar__month-view__weekdays__weekday > abbr {
+	font-weight: normal !important;
+	font-size: 14px !important;
+	line-height: 28px !important;
+	color: #717171 !important;
+	text-decoration: none !important;
+}
+.addContractModal__newChanges {
+	height: 256px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.addContractModal__newChanges__heading {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #000000;
+
+	opacity: 0.8;
+}
+.addContractModal__newChanges__heading__flex {
+	margin-top: 24px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	flex-direction: column;
+	color: #000000;
+	width: 100%;
+}
+.addContractModal__newChanges__d2 {
+	display: flex;
+	flex-direction: row;
+}
+.addContractModal__newChanges__d3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 8px;
+	height: 40px;
+}
+
+.addContractModal__newChanges__d3__d1 {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	/* black */
+	margin-right: 15px;
+	color: #222222;
+}
+
+.addContractModal__newChanges__d4 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+}
+.addContractModal__newChanges__d4__d1 {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+
+	/* black */
+
+	color: #222222;
+}
+
+.form-check .form-check-label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #222222;
+	opacity: 1;
+	padding-top: 2px;
+}
+
+.appsdata {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.appsdata td,
+.appsdata th {
+	padding: 8px;
+}
+
+.appsdata tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.appsdata td {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #222222;
+}
+
+.appsdata th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	color: #717171;
+	opacity: 0.7;
+}
+
+.appsdata__hr {
+	width: 100%;
+}
+
+.edit_contract_renewal_date > div,
+.edit_contract_end_date > div {
+	right: 0;
+}
+
+.pricing_type_buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+.active_pricing_type {
+	background: #e9f0fc;
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 6px #e9f0fc;
+	color: #2266e2;
+}
+
+.inactive_pricing_type {
+	background: #ffffff;
+	/* grey-3 */
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+}
+
+.pricing_btn_metric {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+	width: 113px;
+}
+
+.pricing_btn_user {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+	width: 101px;
+}
+
+.pricing_btn_text {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.border-radius-0 {
+	border-radius: 0;
+}
+
+.base_price {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+}
+
+.base_price_fields {
+	height: 40px;
+	width: 280px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.vertical-line {
+	width: 0px;
+	height: 34px;
+	border: 1px solid #dddddd;
+	margin: 0px 1px;
+}
+
+.base_currency_dropdown {
+	flex-basis: 70%;
+}
+
+.base_price_input {
+	flex-basis: 125%;
+}
+
+.base_period_dropdown {
+	flex-basis: 115%;
+}
+
+.user_metric_price_fields {
+	height: 40px;
+	width: 280px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	transform: scale(0.8);
+	margin-left: -30px;
+}
+
+.metric_based_price_fields {
+	height: 40px;
+	width: 280px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	transform: scale(0.9);
+	margin-left: -13px;
+	padding: 0;
+}
+
+.user_metric_container {
+	position: relative;
+	left: -20px;
+	width: 529px;
+	padding-left: 20px;
+	padding-top: 8px;
+	background-color: rgba(235, 235, 235, 0.2);
+	min-height: 80px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.contracts_custom_fields_container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 115%;
+	margin-top: 15px;
+}
+
+.contracts_custom_fields {
+	flex: 1;
+	margin-top: 5px;
+	min-width: 180px;
+}

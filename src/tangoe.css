@@ -1,0 +1,510 @@
+.tangoe-app .sidebar,
+.tangoe-app .integration-error-info,
+.tangoe-app .upgrade-strip-wrapper, .tangoe-app div#intercom-container {
+	display: none !important;
+}
+
+.tangoe-app .workflow-header {
+	display: block !important;
+}
+
+body.tangoe-app {
+	font-family: "Roboto Flex", sans-serif !important;
+	background-color: #ffffff !important;
+}
+
+/* svg */
+.tangoe-app img[src*="svg"] {
+	filter: hue-rotate(310deg);
+}
+
+/* # Getting started button */
+.tangoe-app .getting__started__progress__button {
+	color: #00838f !important;
+	border: 0.5px solid #00838f !important;
+}
+
+.tangoe-app .getting__started__progress__button img {
+	filter: hue-rotate(310deg) !important;
+}
+
+/* # Primary color */
+.tangoe-app .primary-color {
+	color: #00838f !important;
+}
+
+/* # Buttons */
+.tangoe-app .Uploads__right .appsad.mr-3,
+.tangoe-app .contract-documents-filters .appsad.mr-3,
+.tangoe-app .z__button,
+.tangoe-app .acc__cont__d3__d2,
+.tangoe-app .adm__cont__button1,
+.tangoe-app .btn-primary {
+	border: 1px solid #00838f !important;
+	font-family: "Roboto", sans-serif !important;
+	background-color: #00838f !important;
+	font-weight: 500 !important;
+	text-transform: uppercase !important;
+	color: #ffffff !important;
+}
+
+/* add btn */
+.tangoe-app .Uploads__right .appsad.mr-3 img,
+.tangoe-app .contract-documents-filters .appsad.mr-3 img {
+	filter: brightness(300%) !important;
+}
+
+.tangoe-app .Uploads__right .appsad.mr-3:hover,
+.tangoe-app .contract-documents-filters .appsad.mr-3:hover,
+.tangoe-app .z__button:hover,
+.tangoe-app .btn-primary:hover {
+	background-color: #00737d !important;
+	box-shadow: 0 0 0 3px rgb(0 131 143 / 25%) !important;
+}
+
+.tangoe-app .z__button.normal.prim:hover {
+	background-color: #00737d !important;
+	box-shadow: 0 0 0 3px rgb(0 131 143 / 25%) !important;
+	border: inherit !important;
+}
+
+.tangoe-app .z__button.link,
+.tangoe-app .btn-link {
+	border: none !important;
+	font-family: "Roboto", sans-serif !important;
+	font-weight: 500 !important;
+	color: #313536 !important;
+	text-transform: uppercase !important;
+	background-color: transparent !important;
+}
+
+.tangoe-app .z__button.link:hover,
+.tangoe-app .btn-link:hover {
+	background-color: #f6f6f6 !important;
+	box-shadow: none !important;
+	text-decoration: none !important;
+}
+
+.tangoe-app .btn_secondary {
+	border: 1px solid #d3d3d3 !important;
+	font-family: "Roboto", sans-serif !important;
+	background-color: #ffffff !important;
+	color: #313536 !important;
+	font-weight: 500 !important;
+	text-transform: uppercase !important;
+}
+
+.tangoe-app .btn_secondary:hover {
+	background-color: #f6f6f6 !important;
+	box-shadow: 0 0 0 3px hsl(0deg 0% 97% / 50%) !important;
+}
+
+.tangoe-app .z__button.dashed {
+	border: 1px dashed #00838f !important;
+	background-color: transparent !important;
+	color: #313536 !important;
+	font-weight: 500 !important;
+}
+
+.tangoe-app .z__button.dashed:hover {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.tangoe-app .z-text-primary,
+.tangoe-app .glow_blue {
+	color: #00838f !important;
+}
+
+.tangoe-app .z__button.is-active.normal {
+	background-color: #ebebeb !important;
+}
+.tangoe-app .z__button.normal:hover {
+	background-color: #ebebeb !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.tangoe-app .add_logo_btn_vendor {
+	color: #313536 !important;
+	text-decoration: underline !important;
+	font-size: 14px !important;
+}
+
+.tangoe-app button {
+	text-transform: uppercase !important;
+}
+
+.tangoe-app .stepper__active__indicator {
+	border: 1px solid #00838f !important;
+	color: #00838f !important;
+}
+
+/* checkbox color */
+.tangoe-app input[type="checkbox"] {
+	accent-color: #00838f !important;
+	border: 1px solid #d3d3d3 !important;
+	border-radius: 4px !important;
+	height: 0.875rem !important;
+	width: 0.875rem !important;
+
+	/* appearance: none !important;
+	-webkit-appearance: none !important; */
+}
+
+/* textbox color */
+.tangoe-app input[type="text"]:focus,
+.tangoe-app input[name="number"]:focus,
+.tangoe-app select:focus,
+.tangoe-app textarea:focus,
+.tangoe-app .form-control:focus {
+	border-color: rgba(0, 131, 143, 0.75) !important;
+	box-shadow: 0 0 0 3px rgb(0 131 143 / 25%) !important;
+}
+
+/* dropdown hover color */
+.tangoe-app .dropdown_options:hover {
+	background: #f0f0f0 !important;
+}
+
+.tangoe-app .insidedropdown__users__table:hover {
+	background-color: #f0f0f0 !important;
+}
+
+.tangoe-app .insidedropdown__allapps__table:hover,
+.tangoe-app .riskcriticalsecondtab__d1__d2__b1__options__d1:hover,
+.tangoe-app .quick__filters__dd__cont__list__option:hover,
+.tangoe-app .custom__dropdown__payment__dropdown__option:hover {
+	background: #f0f0f0 !important;
+}
+
+.tangoe-app .z__select--options__container--option:hover,
+.tangoe-app .insidedropdown__dept__table:hover {
+	background-color: #f0f0f0 !important;
+}
+
+.tangoe-app .dropdown-item:hover,
+.tangoe-app .z-select-option:hover {
+	background-color: #f0f0f0 !important;
+}
+
+/* card hover */
+.tangoe-app .card_container:hover {
+	background-color: #f0f0f0 !important;
+}
+
+/* # export data */
+.tangoe-app .sideModal__footer img {
+	filter: hue-rotate(310deg) !important;
+}
+
+.tangoe-app .customswitch__cont__option__active {
+	color: #00838f !important;
+}
+
+.tangoe-app .generatereport__cont__schedulereports__cont__header > img {
+	filter: hue-rotate(310deg) !important;
+}
+
+/* # Application add */
+.tangoe-app .addContractModal__TOP {
+	font-family: "Roboto", sans-serif !important;
+	color: #313536 !important;
+}
+.tangoe-app .contracts__heading {
+	font-size: 22px !important;
+}
+
+.tangoe-app .form-label {
+	font-weight: 500 !important;
+}
+
+/* # Users > add new employee */
+.tangoe-app .add_user_form_grid:nth-of-type(2) + div {
+	background: #f0f0f0 !important;
+}
+
+.tangoe-app .grey-bg {
+	background: #f0f0f0 !important;
+}
+
+/* .add_user_form_grid.grey-bg > div > div {
+	background: red;
+} */
+
+/* # USERS/DEPARTMENTS/TRANSACTIONS&gt > ADD */
+.tangoe-app .addTransactionModal__body_upper {
+	background: #f0f0f0 !important;
+}
+
+/* # Reports > Generate Report*/
+.tangoe-app
+	.generatereport__cont__d1__d1__nofilter
+	div:nth-child(2)
+	img:nth-child(1) {
+	filter: hue-rotate(310deg) !important;
+}
+
+/* # sources>integrations>recommended */
+.tangoe-app .z_i_categories ul li.active {
+	background: #d3d3d3 !important;
+}
+
+.tangoe-app .catalog-banner {
+	background: #f0f0f0 !important;
+}
+
+/* .tangoe-app .z_i_card {
+	font-size: 25px !important;
+} */
+
+.tangoe-app .font-10 {
+	font-size: 12px !important;
+}
+.tangoe-app .font-16 {
+	font-size: 18px !important;
+}
+
+.tangoe-app .z_i_card h6 {
+	color: #313536 !important;
+	background-color: #f0f0f0 !important;
+}
+
+/* # sources>agents*/
+.tangoe-app .agentoverviewtop__box {
+	border-image: linear-gradient(
+		215.58deg,
+		#00838f -16.01%,
+		#00838f 106.14%
+	) !important;
+}
+.tangoe-app .agentsoverview__bottom__d2__box__browser {
+	background: #00838f1a !important;
+	opacity: 90% !important;
+}
+.tangoe-app .agentsoverview__bottom__d2__box__d1__d2__browser {
+	color: #00838f !important;
+}
+
+.tangoe-app .agentsoverview__bottom__d2__box__desktop {
+	background: rgb(127 71 204 / 10%) !important;
+}
+
+.tangoe-app .agentsoverview__bottom__d2__box__d1__d2__desktop {
+	color: #7f47cc !important;
+}
+
+.tangoe-app
+	.sidebar_tabs
+	> .nav.nav-tabs
+	> .nav-item.nav-link.active
+	> .tab_image_holder {
+	background-color: #00838f !important;
+}
+
+.tangoe-app .Overviewins__cont {
+	font-family: "Roboto Flex", sans-serif !important;
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.tangoe-app .truncate_name {
+	font-family: "Roboto Flex", sans-serif !important;
+}
+
+.tangoe-app .nav-link.active {
+	box-shadow: inset 0px -2px 0px #00838f !important;
+	font-weight: 500 !important;
+}
+.tangoe-app .nav-link:hover {
+	color: #7f47cc !important;
+}
+
+/* .tangoe-app .NavH {
+	font-family: "Roboto Flex", sans-serif !important;
+	line-height: auto !important;
+	display: flex !important;
+} */
+
+.tangoe-app .ins-1 {
+	font-weight: 400 !important;
+}
+
+.tangoe-app .border-bottom {
+	box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 3px 6px 0 rgb(0 0 0 / 20%) !important ;
+}
+
+.tangoe-app body {
+	font-family: "Roboto Flex", sans-serif !important ;
+}
+
+/* Page Specific - Overview Page */
+
+.tangoe-app .ov__top {
+	font-weight: 400 !important;
+	font-size: 26px !important;
+	line-height: 28px !important;
+	font-family: "Roboto Flex", sans-serif !important;
+	color: #313536 !important;
+}
+
+.tangoe-app .ov__div4__div1 {
+	border-radius: 4px !important;
+}
+.tangoe-app .ov__div5__div2,
+.tangoe-app .ov__div6__div1__botgraph,
+.tangoe-app .ov__div6__div1__bot {
+	border-radius: 4px !important;
+}
+
+.tangoe-app .Overviewins__cont {
+	margin: 32px !important;
+	background-color: #fff !important;
+	border-radius: 4px !important;
+	box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 3px 6px 0 rgb(0 0 0/ 20%) !important;
+}
+
+/* Page Specific - Tabular Page with Tabs */
+
+.tangoe-app .nav-tabs {
+	margin-top: 16px !important;
+}
+
+.tangoe-app .nav-link.active {
+	font-weight: 400 !important;
+	color: #323536 !important;
+}
+
+.tangoe-app .bg_greyish {
+	background: #f0f0f0 !important;
+}
+
+/* .tangoe-app .pl-2 {
+	background-color: #ffffff !important;
+} */
+
+/*Page Specific - Licenses > Renewals */
+
+.tangoe-app .month__card {
+	font-family: "Roboto Flex", sans-serif !important;
+}
+
+.tangoe-app .block__month {
+	font-family: "Roboto Flex", sans-serif !important;
+}
+.tangoe-app .view-swicth button {
+	background-color: #ffffff !important;
+	border: 1px solid #f0f0f0 !important;
+}
+
+.tangoe-app .view-swicth button.is-active {
+	background-color: #f0f0f0 !important;
+}
+
+.tangoe-app .z__button.edit {
+	border: 0px solid #00838f !important;
+	font-family: "Roboto", sans-serif !important;
+	background-color: #ffffff !important;
+	font-weight: 500 !important;
+
+	color: #000 !important;
+}
+
+.tangoe-app .month__card.is-active {
+	border: 2px solid #00838f;
+}
+
+.tangoe-app .active-renewal-filter,
+.tangoe-app .bar__content {
+	background-color: #00838f;
+}
+
+.tangoe-app .inactive-renewal-filter {
+	border: 1px solid #00838f;
+	color: #00838f;
+}
+.block__month--header > div > div:nth-child(2) {
+	background: #f0f0f0 !important;
+}
+
+.month__card-body > div:nth-child(3) {
+	background: #f0f0f0 !important;
+}
+/*Page Specific - Reports */
+
+.tangoe-app .z__button.link {
+	color: #00838f !important;
+}
+
+/* Tabs Number active color */
+.tangoe-app .nav-link.active div:nth-of-type(2) {
+	color: #00838f !important;
+}
+
+.tangoe-app .nav {
+	font-family: "Roboto", sans-serif !important;
+}
+
+.tangoe-app .flex {
+	font-family: "Roboto", sans-serif !important;
+}
+
+.tangoe-app .navh {
+	height: 30px;
+}
+
+.tangoe-app .table {
+	font-family: "Roboto", sans-serif !important;
+}
+
+.tangoe-app .top__Uploads {
+	font-family: "Roboto", sans-serif !important;
+}
+
+/* filter */
+.tangoe-app .filterModal {
+	background-color: #ffffff !important;
+}
+
+.tangoe-app .filterModal_NumberPill {
+	background: #7f47cc !important;
+}
+
+/* user form profile image */
+.tangoe-app .profile_img_number_pill {
+	color: #313536 !important;
+	background: rgb(32, 38, 38, 0.1) !important;
+}
+
+/* spell change */
+.tangoe-app .recognisedSpellChange {
+	text-indent: -9999px;
+	line-height: 0;
+}
+
+.tangoe-app .recognisedSpellChange::after {
+	content: "Recognized";
+	text-indent: 0;
+	display: block;
+	line-height: initial;
+}
+
+.tangoe-app .unrecognisedSpellChange {
+	text-indent: -9999px;
+	line-height: 0;
+}
+
+.tangoe-app .unrecognisedSpellChange::after {
+	content: "Unrecognized";
+	text-indent: 0;
+	display: block;
+	line-height: initial;
+}
+
+.tangoe-app .greyBg {
+	background-color: #f0f0f0 !important;
+}
+
+.tangoe-app .bg_none {
+	background: none !important;
+}

@@ -1,0 +1,4 @@
+export const searchConstants = {
+	SEARCH_REQUESTED: "SEARCH_REQUESTED",
+	SEARCH_FETCHED: "SEARCH_FETCHED",
+};

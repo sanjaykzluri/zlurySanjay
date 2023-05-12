@@ -1,0 +1,103 @@
+.rangefilter__button {
+	height: 34px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 0px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	margin-right: 10px;
+	line-height: 16px;
+
+	font-size: 13px;
+	padding: 0px 10px;
+	width: fit-content;
+	position: relative;
+}
+.rangefilter__extdiv {
+	width: 177px;
+	height: 128px;
+	position: absolute;
+	background-color: #ffffff;
+	top: 34px;
+	right: 0px;
+	z-index: 55;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+}
+.rangefilter__extdiv__options {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex: 1;
+	border: none;
+	background: none;
+	padding-left: 15px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #484848;
+}
+.rangefilter__extdiv__options:hover {
+	background: rgba(90, 186, 255, 0.1);
+	border-radius: 2px;
+}
+.rangeFilter__rangediv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.rangefilter-datepicker {
+	width: auto;
+	padding-left: 5px;
+}
+
+.rangefilter-calendar {
+	min-width: 330px !important;
+}
+
+.rangefilter-calendar-container {
+	top: 36px !important;
+	left: -10px !important;
+}
+
+.rangefilter-end-calendar-container {
+	top: 36px !important;
+	left: -114px !important;
+}
+
+.border-none {
+	border: none !important;
+}
+
+.days-filter-text {
+	padding: 10px;
+	height: 33px;
+	border-radius: 2px;
+}
+
+.days-filter-text:hover {
+	background: rgba(90, 186, 255, 0.1);
+}
+
+.days-filter-box {
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05),
+		0px 4px 11px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	width: 233px;
+	height: 172px;
+	position: absolute;
+	right: 0;
+	z-index: 1000;
+}
+
+.days-filter-input::placeholder {
+	color: "#dddddd";
+}

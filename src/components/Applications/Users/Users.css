@@ -1,0 +1,13 @@
+.users-empty-lower {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	/* or 150% */
+
+	margin-bottom: 21px;
+
+	/* grey-2 */
+
+	color: #717171;
+	opacity: 0.6;
+}

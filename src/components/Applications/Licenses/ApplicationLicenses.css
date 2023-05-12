@@ -1,0 +1,79 @@
+.license-end-date-tooltip-content {
+	border-radius: 4px;
+	background: white;
+	border: 0.5px solid #ebebeb;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05),
+		0px 4px 11px rgba(0, 0, 0, 0.08);
+}
+
+.license_utilization_tooltip_content {
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05),
+		0px 4px 11px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	width: 440px;
+	height: 300px;
+	padding: 15px;
+	font-size: 12px;
+}
+
+.spend-cost-trend-tooltip-content {
+	width: 307px;
+	height: 130px;
+	background: #ffffff;
+	border: 0.5px solid rgba(151, 151, 151, 0.2);
+	box-sizing: border-box;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12),
+		0px 22px 34px rgba(0, 0, 0, 0.146689);
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.app-description-tooltip-content {
+	width: 407px;
+	min-height: 150px;
+	background: #ffffff;
+	border: 0.5px solid rgba(151, 151, 151, 0.2);
+	box-sizing: border-box;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12),
+		0px 22px 34px rgba(0, 0, 0, 0.146689);
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.spend-cost-trend-tooltiparrow {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 15px;
+	left: 54%;
+	box-sizing: border-box;
+	border: 8px solid black;
+	border-color: transparent transparent #ffffff #ffffff;
+	transform-origin: 0 0;
+	transform: rotate(-225deg);
+	box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.app-description-tooltiparrow {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 38px;
+	left: 60%;
+	box-sizing: border-box;
+	border: 8px solid black;
+	border-color: transparent transparent #ffffff #ffffff;
+	transform-origin: 0 0;
+	transform: rotate(-225deg);
+	box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.1);
+	z-index: 999;
+}

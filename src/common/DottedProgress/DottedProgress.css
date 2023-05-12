@@ -1,0 +1,12 @@
+.dotprogress__cont {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 38px;
+	justify-content: space-between;
+}
+.dotprogress__dot {
+	height: 8px;
+	width: 8px;
+	border-radius: 8px;
+}

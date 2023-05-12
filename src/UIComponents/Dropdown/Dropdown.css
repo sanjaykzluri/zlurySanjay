@@ -1,0 +1,10 @@
+.label {
+    font-size: 14px;
+    color: #484848;
+}
+
+.description {
+    color: #717171;
+    font-size: 10px;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,262 @@
+.billing__container {
+	display: flex;
+	justify-content: space-between;
+	width: 850px;
+}
+.billing__wrapper {
+	width: 255px;
+	height: 216px;
+	background: #fdfdfd;
+	border: 1px solid #ededed;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.billing__icon > img {
+	color: #2266e2;
+}
+
+.billing__icon {
+	display: flex;
+	justify-content: center;
+	margin: 34px 0 18px 0;
+}
+
+.billing__title {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: center;
+	color: #484848;
+}
+
+.billing__button .action__link {
+	color: #717171;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	text-decoration: none;
+	border: 1px solid #717171;
+	box-sizing: border-box;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 18px;
+}
+.billing__button {
+	display: flex;
+	justify-content: center;
+	margin: 24px 26px;
+}
+
+.billing__header {
+	font-size: 14px;
+	line-height: 18px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #222222;
+	margin: 32px 13px 13px 0;
+}
+
+.bill__cont__d1__l {
+	flex-basis: 62.6%;
+	padding: 30px 28px;
+	display: flex;
+	flex-direction: column;
+}
+.bill__cont__d1__l__d1 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+
+	/* black */
+
+	color: #222222;
+}
+.bill__cont__d1__l__d2 {
+	margin-top: 19px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	/* or 21px */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.bill__cont__d1__l__d3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 15px;
+}
+.bill__cont__d1__l__d3 > div > div {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	/* identical to box height, or 21px */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.bill__cont__d1__r {
+	flex-basis: 37.4%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-left: 32px;
+	padding-right: 32px;
+	align-items: center;
+}
+.bill__cont__d1__r__d1 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+
+	/* black */
+
+	color: #222222;
+}
+.bill__cont__d1__r__d2 {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+
+	/* black */
+
+	color: #222222;
+}
+.bill__cont__d1__r__d3 {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 150%;
+	/* identical to box height, or 18px */
+	margin-top: 5px;
+
+	/* grey-2 */
+
+	color: #717171;
+}
+.bill__cont__d1__r__d4 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 65%;
+	height: 40px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	background: #2266e2;
+	border-radius: 4px;
+	border: none;
+	/* white */
+	margin-top: 7px;
+	color: #ffffff;
+}
+.bill__cont__d1__r__d5 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 65%;
+	border: 1px solid #717171;
+	box-sizing: border-box;
+	border-radius: 4px;
+	background: white;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	height: 40px;
+	/* grey-2 */
+	margin-top: 8px;
+	color: #717171;
+}
+.bill__cont__d2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 21px;
+}
+.bill__cont__d2__cardno {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+	margin-left: 12px;
+
+	/* black */
+
+	color: #222222;
+}
+.bill__cont__d2__btn1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-left: 81px;
+
+	width: 74px;
+	height: 34px;
+
+	/* grey-3 */
+	background: white;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	/* grey-1 */
+
+	color: #484848;
+}
+.bill__cont__d2__btn2 {
+	margin-left: 16px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	width: 186px;
+	height: 34px;
+
+	/* primary */
+	background: white;
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	/* primary */
+
+	color: #2266e2;
+}
+.bill__cont__table {
+	margin-top: 24px;
+}
+
+.add-new-payment {
+	width: 192px;
+	height: 34px;
+	display: flex;
+	flex-direction: row;
+	font-size: 13px;
+	align-items: center;
+	color: #2266e2;
+	border: none;
+	background-color: transparent;
+	margin-top: 17px;
+}

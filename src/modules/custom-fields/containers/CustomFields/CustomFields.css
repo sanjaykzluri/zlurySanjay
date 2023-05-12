@@ -1,0 +1,9 @@
+.cf__edit-modal > div {
+	max-width: 580px;
+}
+
+.cf__edit-modal {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

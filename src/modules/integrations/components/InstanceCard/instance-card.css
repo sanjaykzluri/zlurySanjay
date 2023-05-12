@@ -1,0 +1,115 @@
+.card.z_i_instance_card {
+	max-width: 327px;
+	min-width: 310px;
+	font-family: Sora, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #fcfcfd;
+	margin-right: 40px;
+	margin-top: 21px;
+	width: 28%;
+}
+
+.z_i_instance_card .instance-info-bar {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.z_i_instance_card .instance-details {
+	color: #717171;
+	margin-bottom: 6px;
+}
+.z_i_instance_card .name {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+
+	/* grey-1 */
+	color: #484848;
+}
+.z_i_instance_card .last-sync {
+	font-size: 11px;
+	line-height: 150%;
+}
+.z_i_instance_card .instance-discription {
+	font-size: 10px;
+	line-height: 15px;
+	opacity: 0.8;
+}
+
+.z_i_instance_card .instance-meta-data {
+	max-height: 130px;
+	min-height: 130px;
+	/* grey-4 */
+
+	background: rgba(235, 235, 235, 0.2);
+	border-radius: 4px;
+}
+.instance-meta-data .row.lbl {
+	max-height: 12px;
+}
+.m-label {
+	font-family: Sora, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	line-height: 150%;
+	opacity: 1;
+	/* identical to box height, or 12px */
+
+	/* grey-2 */
+	color: #717171;
+}
+
+.z_i_instance_card .entity-chip {
+	background-color: rgba(90, 186, 255, 0.1);
+	height: 12px;
+	padding: 0px 3px;
+	border-radius: 2px;
+	font-size: 8px;
+	font-family: sora, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	margin: 1px 2px;
+}
+
+.entity-chip .icon {
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	background-color: #c4c4c4;
+}
+.entity-chip .name {
+	font-size: 9px;
+	line-height: 150%;
+	color: #484848;
+	font-weight: 400;
+	margin: 0px 2px;
+}
+.z_i_instance_card .action-btn {
+	width: 26px;
+	height: 26px;
+	border-radius: 4px;
+	margin-right: 5px;
+}
+.z_i_instance_card .button-warning {
+	background-color: #ff6767;
+	height: 26px;
+	font-size: 10px;
+	line-height: 13px;
+	color: #fff;
+}
+
+.z_i_instance_card .btn-primary {
+	background-color: #2266e2;
+	height: 26px;
+	font-size: 10px;
+	line-height: 13px;
+	color: #fff;
+}
+
+.truncate_twoline {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}

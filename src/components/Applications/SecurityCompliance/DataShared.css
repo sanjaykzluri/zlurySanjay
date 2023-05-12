@@ -1,0 +1,7 @@
+.threatsHeading {
+    background: #ebebeb33;
+    box-sizing: border-box;
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}

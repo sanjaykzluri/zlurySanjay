@@ -1,0 +1,12 @@
+.renewals__header .view-swicth{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.view-swicth button.is-active{
+    background-color: #ebebeb;
+}
+
+.renewals__header .view-swicth button{
+    padding: 8px 10px;
+}

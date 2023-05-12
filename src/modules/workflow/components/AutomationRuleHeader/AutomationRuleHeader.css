@@ -1,0 +1,11 @@
+.width_25vw {
+    width: 25vw !important;
+}
+
+.save_template {
+    display: flex;
+}
+
+.workflow-run:disabled{
+    filter: contrast(0.6);
+}

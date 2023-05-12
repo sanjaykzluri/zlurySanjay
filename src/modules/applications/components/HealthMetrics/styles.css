@@ -1,0 +1,309 @@
+.card__healthpoints {
+	margin-right: 11px;
+}
+.card__container .card__ellipsis {
+	position: absolute;
+	right: 0;
+}
+.card__container {
+	position: relative;
+	height: 239px;
+	padding: 14px 16px;
+	margin-right: 12px;
+	width: 196px;
+}
+
+.card__title {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: #484848;
+	margin: 10px 0 6px;
+}
+
+.card__description {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10.1084px;
+	line-height: 15px;
+	color: #717171;
+	opacity: 0.8;
+}
+
+.card__action_button {
+	position: absolute;
+	bottom: 20px;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 24px;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 15px;
+	color: #484848;
+	padding: 5px 12px;
+}
+
+.healthcardsslider__paginationtext {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 18px;
+	color: #717171;
+	opacity: 0.5;
+	padding: 15px;
+}
+.completed_card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+}
+.completed_card .healthpoints {
+	height: 29px;
+	margin: 0 0 18px;
+}
+.completed_card .card_status {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 15px;
+	color: #717171;
+	margin-right: 7px;
+}
+.completed_card .type {
+	margin-bottom: 39px;
+}
+.completed_card .undo {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	color: #2266e2;
+}
+.card.option_card-container {
+	width: 275px;
+	min-height: 239px;
+	border: 1px solid #5abaff;
+	box-sizing: border-box;
+	box-shadow: 0px 36px 80px rgba(77, 90, 104, 0.07),
+		0px 13.1406px 29.2013px rgba(77, 90, 104, 0.0482987),
+		0px 6.37951px 14.1767px rgba(77, 90, 104, 0.0389404),
+		0px 3.12736px 6.94968px rgba(77, 90, 104, 0.0310596),
+		0px 1.23656px 2.74791px rgba(77, 90, 104, 0.0217013);
+	border-radius: 4px;
+}
+.option_card-container label.form-check-label {
+	font-size: 11px;
+}
+.option_card-container .options_title {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	color: #484848;
+	margin: 11px 0;
+}
+.option_card-container .save {
+	border-radius: 24px;
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 15px;
+	width: 86px;
+	margin-top: 27px;
+}
+.option_card-container .cancel {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 15px;
+	color: #2266e2;
+	background: none;
+	margin-top: 27px;
+}
+
+.card__button-save {
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 24px;
+	padding: 5px 31px;
+}
+
+.healthcardsslider__container {
+	height: 331px;
+	background: #fef7f4;
+	padding: 0 20px;
+}
+
+.healthcardsslider__container .z-select {
+	width: auto;
+	min-height: 0;
+}
+.slick-track {
+	min-width: 767px;
+}
+.healthcardsslider__container .z-select-optioner {
+	width: 166px;
+}
+.healthcardsslider__container .z-select-placeholder,
+.healthcardsslider__container .z-select-selected-option,
+.healthcardsslider__container .z-select-selected-option > div {
+	margin: 0 4px !important;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px !important;
+	color: #484848;
+}
+.healthcardsslider__container .slick-list {
+	overflow-y: visible;
+	overflow-x: hidden;
+}
+
+.health__card__footer__fixed {
+	position: absolute;
+	bottom: 28px;
+}
+.health__card__footer {
+	height: 26px;
+	align-items: center;
+}
+
+.healthcard__ddoption {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+
+	/* grey-1 */
+
+	color: #484848;
+}
+
+.health__card__typeahead__suggestions div {
+	font-size: 14px;
+}
+.health__card__typeahead__suggestions .user_email_suggestion {
+	font-size: 11px;
+}
+.health__card__typeahead__suggestions {
+	max-height: 117px;
+}
+.health__card__dropdown__option {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #484848;
+}
+.health__card__dropdown__options {
+	bottom: 30px;
+	top: auto;
+}
+
+.card__ellipsis__option {
+	background: rgba(90, 186, 255, 0.1);
+}
+.card_completed_text {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	margin: 17px 0;
+	color: #484848;
+}
+.review__wrapper {
+	font-family: "Sora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    color: #5ABAFF;
+    padding: 7px 0;
+    border-top: 0.5px solid #EBEBEB;
+    border-bottom: 0.5px solid #EBEBEB;
+    margin: 1px 0;
+}
+
+.review__title {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	color: #717171;
+	margin: 0 5px;
+}
+.review__subtitle {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 10px;
+	margin: 2px;
+
+	/* identical to box height */
+
+	/* green */
+
+	color: #40e395;
+}
+
+.review__description {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 8px;
+	line-height: 10px;
+	/* identical to box height */
+
+	color: #717171;
+
+	opacity: 0.5;
+}
+
+.review__action {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 13px;
+
+	display: flex;
+	align-items: center;
+
+	color: #5abaff;
+}
+
+.card__refresh {
+	display: flex;
+	align-items: center;
+	font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 18px;
+/* identical to box height, or 180% */
+
+
+/* grey-2 */
+
+color: #717171;
+
+opacity: 0.5;
+}

@@ -1,0 +1,269 @@
+.split__cont {
+	display: flex;
+	flex-direction: column;
+	max-height: 561px;
+	width: 100%;
+	position: relative;
+}
+.split__cont > img {
+	position: absolute;
+	top: 30px;
+	right: 34px;
+}
+.split__cont__d1 {
+	display: flex;
+	flex-direction: row;
+	height: 72px;
+	padding: 0 40px 0;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #000000;
+}
+.split__cont__d2 {
+	height: 204px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 51px;
+	width: 100%;
+}
+.split__cont__d3 {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+
+	display: flex;
+	justify-content: center;
+	color: #222222;
+	margin-top: 20px;
+}
+.split__cont__d4 {
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	/* or 157% */
+
+	text-align: center;
+
+	/* grey-2 */
+	width: 100%;
+	padding-left: 81px;
+	padding-right: 81px;
+	color: #717171;
+}
+.split__cont__d5 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 27px;
+}
+.split__cont__d5 > button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 209px;
+	height: 40px;
+	border: none;
+
+	background: #2266e2;
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+
+	color: #ffffff;
+}
+
+.split__cont__d1s1 {
+	width: 100%;
+	height: 89px;
+	background: rgba(235, 235, 235, 0.6);
+	display: flex;
+	flex-direction: column;
+	padding-left: 31px;
+	padding-right: 31px;
+	padding-top: 15px;
+}
+.split__cont__d1s1__d1 {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	/* or 150% */
+
+	/* black */
+
+	color: #222222;
+	opacity: 0.8;
+}
+.split__cont__d1s1__d2 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-end;
+	margin-top: 7px;
+}
+.split__cont__d1s1__d2 > button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	background: none;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+
+	/* primary */
+
+	color: #2266e2;
+}
+.split__cont__d2s1 {
+	display: flex;
+	flex-direction: column;
+	padding-left: 61px;
+	padding-top: 10px;
+	max-height: 409px;
+	overflow-y: auto;
+}
+.split__cont__d2s1__d1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.split__cont__d2s1__d1__d1 {
+	width: 448px;
+	height: 58px;
+
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 19px;
+	padding-right: 20px;
+}
+.split__cont__d2s1__d1__d1__d1 {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+
+	/* black */
+
+	color: #222222;
+	width: 150px;
+}
+.split__cont__d2s1__d1__d1__d2 {
+	/* flex-basis: 80%; */
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.range-slider__tooltip__label {
+	display: none;
+}
+.range-slider__wrap {
+	display: flex;
+	align-items: center;
+}
+.range-slider {
+	width: 120px;
+}
+.split__bottom__button {
+	border: none;
+	background: none;
+	display: flex;
+	flex-direction: row;
+	margin-top: 8px;
+	align-items: center;
+	justify-content: flex-start;
+	width: 160px;
+	height: 34px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+
+	/* primary */
+
+	color: #2266e2;
+}
+.split__cont__d2s1__bottom {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 72px;
+	justify-content: flex-end;
+	padding-right: 21px;
+}
+.new__input__spilt {
+	display: block;
+	width: 40px;
+	margin: auto;
+	height: calc(1.5em + 0.75rem + 2px);
+	padding-left: 5px !important;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.handleaddinput__split {
+	height: 34px !important;
+	padding-left: 15px !important;
+	width: 415px !important;
+}
+.SuggestionBardiv__Split {
+	position: absolute;
+	z-index: 1500;
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	width: 415px;
+
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12),
+		0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+}
+
+.department__split__modal {
+	width: 887px !important;
+	max-width: 887px;
+	min-width: 887px !important;
+}
+
+.split-data-grid {
+	margin-top: 24px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-columns: max-content;
+	grid-auto-rows: min-content;
+	overflow: auto;
+	grid-gap: 12px;
+	background: #ebebeb;
+	border-radius: 4px;
+	height: 56px;
+	padding-left: 14px;
+	padding-top: 11px;
+	width: 448px;
+	margin-bottom: 10px;
+	margin-left: 61px;
+	padding-bottom: 10px;
+}

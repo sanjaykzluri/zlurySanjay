@@ -1,0 +1,248 @@
+.sidebar_tabs {
+	height: calc(100vh - 88px);
+	background-color: #ffffff;
+	overflow-y: scroll;
+}
+
+/* width */
+.sidebar_tabs::-webkit-scrollbar {
+	width: 0px;
+}
+
+.sidebar_tabs > .nav.nav-tabs > a {
+	margin-right: 15px;
+	height: 50px !important;
+	width: 32px !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.sidebar_tabs > .nav.nav-tabs:first-child {
+	padding-left: 28px;
+}
+
+.sidebar_tabs > .nav.nav-tabs > .nav-item.nav-link > .tab_image_holder {
+	padding: 2px 4px;
+	border-radius: 3px;
+	background-color: #f5f6f9;
+	display: flex;
+	height: 95%;
+}
+
+.sidebar_tabs > .nav.nav-tabs > .nav-item.nav-link.active > .tab_image_holder {
+	background-color: #5abaff;
+}
+
+.sidebar_tabs > .nav.nav-tabs > .nav-item.nav-link.active {
+	box-shadow: inset 0px -2px 0px #5abaff;
+}
+
+.sidebar_tabs > .nav.nav-tabs > .nav-item.nav-link > .tab_image_holder > img {
+	margin: auto;
+}
+
+.tab_content {
+	margin-left: 27px;
+	margin-right: 27px;
+}
+
+.tab_content_header {
+	font-size: 16px;
+	font-weight: 600;
+	color: #484848;
+}
+
+.tab_content_body {
+	margin-top: 10px;
+}
+
+.checkPending .form-control {
+	width: 48% !important;
+}
+
+.checkPending .form-control:last-child {
+	margin-left: auto;
+}
+
+.dragAndDrop,
+.dragAndDrop > img {
+	cursor: grab;
+}
+
+.dragAndDrop:active,
+.dragAndDrop > img:active {
+	cursor: grabbing;
+}
+
+.workflowStatusCard {
+	height: 96px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	padding: 16px 28px;
+	cursor: pointer;
+}
+
+.status_user_logo {
+	object-fit: cover;
+	width: 21px;
+	height: 21px;
+	margin-right: 6px;
+	font-size: 8px;
+	border-radius: 50%;
+	align-self: center !important;
+}
+
+.runtab_content_body {
+	margin-left: -27px;
+	margin-right: -27px;
+}
+
+.workflow_status {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+}
+
+.workflow_status > .status_name {
+	color: #717171;
+	align-self: center;
+	margin-left: 4px;
+	font-size: 12px;
+}
+
+.rejection_email__wrapper {
+	background: #f5f6f9;
+	border-radius: 8px;
+	display: flex;
+    justify-content: space-between;
+    padding: 15px 17px;
+}
+
+.rejection_email__button__trigger {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 14px;
+
+	display: flex;
+	align-items: center;
+
+
+	color: #2266e2;
+}
+.rejection_email__button__label {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #222222;
+} 
+
+
+
+
+  
+  .approver_copy_button {
+	position: relative;
+	/* display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: calc(50% - 20px);
+	width: 40px;
+	height: 40px; */
+	
+	cursor: pointer;
+  }
+	
+	
+	.approver_copy_button::before {
+	  content: '';
+	  display: block;
+	  position: absolute;
+	  z-index: 9998;
+	  top: 35px;
+	  left: 15px;
+	  width: 0;
+	  height: 0;
+	  border-left: 5px solid transparent;
+	  border-right: 5px solid transparent;
+	  border-bottom: 5px solid rgba(0,0,0,.72);
+	}
+  
+	.approver_copy_button::after {
+	  content: 'Copy to Clipboard';
+	  display: block;
+	  position: absolute;
+	  z-index: 999999;
+	  top: -7px;
+	  left: 118px;
+	  width: 114px;
+	  height: 36px;
+	  color: #000;
+	  font-size: 10px;
+	  line-height: 36px;
+	  text-align: center;
+	  margin-left: 5px;
+	  background: rgb(255,255,255);
+	  border-radius: 5px;
+	}
+	
+	.approver_copy_button:hover {
+	  background-color: #fff;
+	}
+
+	.approver_copy_button:hover::before, .approver_copy_button:hover::after {
+		display: block;
+	}
+	
+	.approver_copy_button:active, .approver_copy_button:focus {
+	  outline: none;
+	}
+	/* .approver_copy_button:active::after, .approver_copy_button:focus:after { */
+	.approver_copy_button.active::after {
+		content: 'Copied!';
+	  }
+
+.tab_content_subheader {
+	font-family: 'Sora';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 20px;
+/* identical to box height, or 182% */
+
+
+/* grey-2 */
+
+color: #717171;
+}
+
+.assign_task_description {
+	font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 20px;
+color: #717171;
+}
+.due_within_text {
+	font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* black */
+
+color: #222222;
+}
+  
+  

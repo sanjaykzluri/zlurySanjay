@@ -1,0 +1,139 @@
+.spendvscost__exterior__cont {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: #ffffff;
+	border: 0.5px solid #ebebeb;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.spendvscost__cont__header {
+	display: flex;
+	flex-direction: row;
+}
+
+.spendvscost__cont__header__left {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 16px;
+	color: #484848;
+	margin-left: 29px;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.spendvscost__cont__header__right {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-left: 29px;
+	margin-top: 30px;
+}
+
+.spendvscost__yaxis {
+	width: max-content;
+	height: 100%;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column-reverse;
+	padding-bottom: 24px;
+	margin-left: 29px;
+	justify-content: space-between;
+}
+
+.spendvscost__yaxis__label {
+	font-size: 10px;
+	color: #717171;
+}
+
+.spendvscost__stackedbar__cont {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: auto;
+	margin-right: 30px;
+}
+
+.line__text__stackedbar__cont {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.line__stackedbar {
+	width: 0px;
+	border-left: 1px solid #dddddd;
+	height: calc(100% - 24px);
+	margin-bottom: 15px;
+}
+
+.stackedbars__bars__container {
+	display: flex;
+	flex-direction: column-reverse;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	height: calc(100% - 24px);
+	z-index: 20;
+}
+
+.stackedbars__bars__container__spendbar {
+	background-color: #6967e0;
+	width: 28px;
+}
+.stackedbars__bars__container__savingsbar {
+	background-color: #c4c4ff;
+	width: 28px;
+}
+.stackedbars__bars__container__costbar {
+	position: absolute;
+	bottom: 0px;
+	width: 10px;
+	z-index: 30;
+	background: #ff974a;
+	left: 9px;
+}
+
+.spendcost__tooltip {
+	z-index: 100;
+}
+
+.spendcost__tooltip__content {
+	width: 236px;
+	height: 80px;
+	background: #162c50;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding: 10px 12px;
+}
+
+.graph-period-button {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.active-graph-period {
+	background: rgba(34, 102, 226, 0.08);
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 4px;
+	color: #2266e2 !important;
+}

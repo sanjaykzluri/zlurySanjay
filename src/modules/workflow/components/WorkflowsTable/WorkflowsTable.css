@@ -1,0 +1,33 @@
+tr.draggable-item {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #dee2e6;
+	align-items: center;
+	padding: 0.2rem 0.75rem;
+}
+
+.new_workflow_table td {
+	padding: 0.1rem !important;
+}
+
+.new_table_row {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	height: 48px;
+	color: #222222;
+}
+
+.more-info-table-header {
+	display: flex;
+	align-items: center;
+	font-size: 8px;
+	color: #717171;
+	margin-bottom: 0.5rem;
+}
+
+.more-info-table-value-text {
+	font-weight: 400;
+	font-size: 10px;
+	color: #717171;
+}

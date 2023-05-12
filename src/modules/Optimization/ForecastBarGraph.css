@@ -1,0 +1,87 @@
+.forecastbargraph__container {
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+.forecastbargraph__barchart {
+	background-color: rgba(250, 251, 252, 0.7);
+}
+
+.forecastbargraph__yaxis {
+	width: max-content;
+	height: 100%;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column-reverse;
+	padding-top: 27px;
+	padding-bottom: 53px;
+	margin-left: 29px;
+	justify-content: space-between;
+}
+
+.forecastbargraph__yaxis__label {
+	font-size: 10px;
+	color: #717171;
+}
+
+.forecastbargraph__barchart__bars-lines {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: auto;
+}
+
+.forecastbargraph__barchart__lines {
+	position: absolute;
+	top: 34.5px;
+	height: 78px;
+}
+.forecastbargraph__barchart__bars {
+	position: absolute;
+	top: 34.5px;
+	height: 78px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.forecastbargraph__barchart__bar {
+	position: absolute;
+	border-radius: 3px;
+	width: 16px;
+	z-index: 10;
+}
+
+.forecastbargraph__barchart__xlabels {
+	padding-top: 5px;
+	position: absolute;
+	top: 112.5px;
+	height: 18px;
+	display: flex;
+	z-index: 10;
+}
+
+.forecastbargraph__barchart__xlabel {
+	position: absolute;
+	font-size: 10px;
+	color: #717171;
+}
+
+.forecastbargraph__forecastline {
+	position: absolute;
+	width: 1px;
+	border: 1px solid #2266e2;
+	z-index: 10;
+}
+
+.forecastbargraph__filtersmenu__option {
+	display: flex;
+	align-items: center;
+}
+
+.disable_BulkRunPlaybookBtn {
+	pointer-events: none;
+	opacity: 0.5;
+}

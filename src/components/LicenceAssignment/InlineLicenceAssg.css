@@ -1,0 +1,109 @@
+.licenceItemValue {
+	color: #5abaff;
+}
+
+.autoIncrementStatus {
+	color: #40e395;
+}
+
+.dot {
+	height: 1px;
+	width: 1px;
+	border: 1px solid grey;
+}
+
+.licenceCardDropdownItem:hover {
+	background-color: #eaeaea;
+	width: 100%;
+}
+
+.licenceDetails {
+	background-color: #ebebeb73;
+}
+
+.licenceAssignmentHeader {
+	height: 176px;
+	background-color: #2266e2;
+}
+
+.licenceCard {
+	width: 194px;
+	height: 48px;
+	background-color: #ffffff;
+}
+
+.profileImage {
+	height: 28px;
+	width: 28px;
+	margin-left: -15px;
+	border: 2px solid #fff;
+}
+
+.licenceNameBadge {
+	background-color: #ebebeb;
+	padding: 2px 10px;
+	border-radius: 30px;
+}
+
+.confirmationAssignmentText {
+	color: #ff6767;
+	font-size: 18px;
+}
+
+.importantBlueBg {
+	background-color: #5abaff !important;
+}
+
+.showChildButtonOnHover > button {
+	visibility: hidden;
+	background: none;
+	border: none;
+}
+
+.showChildButtonOnHover:hover > button {
+	visibility: visible;
+}
+
+.warningMessage {
+	font-size: 12px;
+	color: #ff6767;
+	border: 1px solid #ff6767;
+	border-radius: 4px;
+	background-color: #ff67671a;
+}
+
+.addLicenceForSidePanel {
+	height: 56px;
+	width: 100%;
+	display: flex;
+	border: 1px dashed #dddddd;
+}
+
+.userProfileTick {
+	top: -2px;
+	right: -3px;
+	width: 11px;
+	height: 11px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+
+.table-license-pill {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2px 4px;
+	height: 19px;
+	background: rgba(235, 235, 235, 0.5);
+	border-radius: 2px;
+}
+
+.bulk-unassign-license-popover {
+	position: absolute;
+	width: 270px;
+	max-height: 315px;
+	top: 25px;
+	left: 134px !important;
+	padding: 8px;
+}

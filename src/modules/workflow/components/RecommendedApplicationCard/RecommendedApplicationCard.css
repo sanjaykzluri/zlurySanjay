@@ -1,0 +1,18 @@
+.recommendedItem {
+    border: 1px solid #E8ECF8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 18px 16px;
+}
+
+.recommendedItem.added .recommendedAppIcon, .recommendedItem.added .title, .recommendedItem.added .description {
+    opacity: 0.5;
+}
+
+.recommendedAppIcon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin: auto 10px auto 0px;
+    border-radius: 4px;
+}

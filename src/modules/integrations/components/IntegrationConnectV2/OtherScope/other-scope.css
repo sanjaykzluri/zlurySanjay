@@ -1,0 +1,33 @@
+.other-scope {
+	border: 1px dashed #717171;
+	box-sizing: border-box;
+	border-radius: 6px;
+	max-width: 457px;
+	min-height: 54px;
+	width: 457px;
+	background: #ffffff;
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.other-scope .__title {
+	color: #484848;
+	font-size: 12px;
+	line-height: 15px;
+}
+.other-scope .__subheading {
+	font-size: 8px;
+	line-height: 10px;
+	color: #717171;
+	opacity: 0.5;
+}
+.other-scope .__action {
+	font-size: 10px;
+	line-height: 13px;
+	color: #5abaff;
+}
+
+.private-beta {
+	margin-left: 8px !important;
+}

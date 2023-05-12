@@ -1,0 +1,219 @@
+.uploadTransactionsContainer {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 529px;
+	border: 1px solid #dddddd;
+}
+
+.header {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	/* identical to box height */
+	text-align: center;
+	color: #000000;
+}
+
+.downloadImage {
+	width: 18px;
+	margin: auto 5px auto auto;
+}
+
+.downloadText {
+	font-size: 13px;
+	line-height: 16px;
+	margin: auto auto auto 0px;
+}
+
+.uploadTransactionContainer {
+	height: 272px;
+	margin-left: auto;
+	border: 1px dashed rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 480px !important;
+	margin-right: auto;
+	background-color: #5abaff0d;
+}
+
+.folderImage {
+	width: 65px;
+	margin-top: -10px;
+}
+
+.selectFileButton {
+	background: #2266e2;
+	border-radius: 5px;
+	width: 104px;
+	height: 38px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+	line-height: 16px;
+	color: #ffffff;
+	margin-top: 18px;
+	cursor: pointer;
+}
+
+.errorMessage {
+	width: 200px;
+	color: #ff6767;
+	font-size: 12px;
+}
+
+.downloadSampleActive {
+	background: rgba(90, 186, 255, 0.1);
+	border: 1px solid #5abaff;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.uploadTransValidationContainer {
+	width: 466px;
+	background: #5abaff0d;
+	border: 1px solid #2266e23d;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.uploadTransValidationCloseTag {
+	width: 12px;
+	margin: auto 10px auto auto;
+}
+
+.fileName {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	color: #222222;
+	margin: auto auto 0px 0px;
+	max-width: 100%;
+}
+
+.uploadHeaderStatus {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	margin: 4px auto auto 0px;
+}
+
+.loadingHeader {
+	font-size: 16px;
+	line-height: 20px;
+	color: #222222;
+}
+
+.loadingDesc {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	color: #717171;
+}
+
+.validRowHeader {
+	font-size: 16px;
+	line-height: 20px;
+	color: #222222;
+	margin-bottom: 5px;
+}
+
+.validRowDesc {
+	font-size: 13px;
+	line-height: 20px;
+	color: #717171;
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+.downloadInvalidFile {
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #2266e2;
+	margin: 0px 8px;
+}
+
+.width10 {
+	width: 10%;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.width20 {
+	width: 20%;
+}
+
+.index {
+	font-size: 10px;
+	line-height: 13px;
+	color: #717171;
+	opacity: 0.7;
+	text-align: center;
+}
+
+.Tableheader div {
+	font-size: 10px;
+	line-height: 13px;
+	color: #717171;
+	opacity: 0.7;
+	margin: 0px 3px;
+	height: 25px;
+}
+
+.columnValues div {
+	font-size: 10px;
+	line-height: 13px;
+	color: #222222;
+	margin: auto 0px;
+	padding: 4px;
+}
+
+.inValidColumn {
+	background: #ff66661a;
+	border: 0.1px solid white;
+}
+
+.progressBackground {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	transition: width 1s ease-in-out;
+	height: 100%;
+	background-color: #5abaff57;
+	opacity: 0.5;
+	z-index: 1;
+	border-top-left-radius: 8px;
+}
+
+.progressBackground.validating20 {
+	width: 20%;
+}
+
+.progressBackground.validated70 {
+	width: 70%;
+}
+
+.progressBackground.validated {
+	width: 100%;
+	border-top-right-radius: 8px;
+}
+
+.infiniteScrollInvalidTrans {
+	width: 88%;
+	margin: auto;
+}

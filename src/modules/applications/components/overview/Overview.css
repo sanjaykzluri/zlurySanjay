@@ -1,0 +1,186 @@
+.application-needs-review-section {
+	background: #ee8f6e;
+	height: 120px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #ee8f6e;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.application-needs-review-select-auth-btn {
+	color: white;
+	width: 180px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #ee8f6e;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border-radius: 4px;
+	padding: 7px 10px;
+}
+
+.application-needs-review-select-auth-btn-arrow {
+	filter: brightness(0) invert(1);
+}
+
+.app_details_header_text {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+	color: #222222;
+	margin-left: 9px;
+}
+
+.custom_bg_tags {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	border: none !important;
+	color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.custom_app_tags_wrapper {
+	width: 230px !important;
+}
+
+.custom_bg_tags::placeholder {
+	color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.custom_app_tags_value {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2px 7px;
+	height: 18px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+	font-size: 11px;
+	color: #ffffff;
+}
+
+.custom_app_tags_overview {
+	background-color: #5abaff !important;
+}
+
+.custom_app_tags_popup_box {
+	background-color: #5abaff !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 2px 7px;
+	height: 18px;
+	border-radius: 4px;
+	font-size: 11px;
+	color: #ffffff;
+}
+
+.additionaltags__dropdowncont {
+	position: absolute;
+	z-index: 45;
+	top: 25px;
+	width: fit-content;
+	height: fit-content;
+	background: #ffffff;
+	border: 0.5px solid rgba(151, 151, 151, 0.2);
+	box-sizing: border-box;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12),
+		0px 22px 34px rgba(0, 0, 0, 0.146689);
+	border-radius: 8px;
+	padding-left: 5px;
+	left: -35px;
+}
+
+.additionaltags__dropdowncont::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 54%;
+	box-sizing: border-box;
+	border: 6px solid black;
+	border-color: transparent transparent #ffffff #ffffff;
+	transform-origin: 0 0;
+	transform: rotate(-225deg);
+	box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.department_split_tooltip {
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	width: 214px;
+	max-height: 150px;
+	overflow-y: auto;
+	background: #162c50;
+	border-radius: 4px;
+	color: white;
+	font-size: 11px;
+	padding: 14px;
+	display: flex;
+	flex-direction: column;
+}
+
+.tagify__tag-text {
+	max-width: 120px !important;
+}
+
+.app_source_settings_modal {
+	max-width: 570px !important;
+}
+
+.app_details_section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #ffffff;
+	border-radius: 4px;
+	margin: 10px 0px;
+	padding: 20px;
+	height: auto;
+	gap: 15px 25px;
+	width: fit-content;
+}
+
+.app_details_section_insights {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+}
+
+.app_table_whats_next_auth_dropdown_menu {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	padding: 2px;
+	isolation: isolate;
+	background: #ffffff;
+	box-shadow: -2px 4px 12px rgba(0, 0, 0, 0.12);
+	border-radius: 3px;
+	right: -44px;
+	z-index: 1;
+	top: 40px;
+	gap: 1px;
+}
+
+.app_table_whats_next_auth_dropdown_option {
+	display: flex;
+	flex-direction: column;
+	padding: 6px;
+	background: #ffffff;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #484848;
+	border: 1px solid #fff;
+	width: 210px;
+}
+
+.app_table_whats_next_auth_dropdown_option:hover {
+	background: rgba(90, 186, 255, 0.1);
+}

@@ -1,0 +1,17 @@
+.scheduled_reports_btn {
+	background: white;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	width: 175px;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 14.25px;
+	border-radius: 4px;
+	height: 36px;
+	margin-right: 15px;
+}

@@ -1,0 +1,35 @@
+.select__table__payment {
+	width: 155.11px;
+	height: 16px;
+	position: relative;
+	background: url(arrowdropdown.svg) no-repeat right white;
+}
+.select__table__payment > select {
+	border: none;
+	background: inherit;
+	appearance: none;
+	width: 155.11px;
+	height: 16px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.assignapp__button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 111px;
+	height: 26px;
+	border-radius: 24px;
+	border: none;
+	background: rgba(34, 102, 226, 0.1);
+	padding-left: 10px;
+
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 13px;
+
+	color: #2266e2;
+}

@@ -1,0 +1,296 @@
+.workflows-infinite-table table {
+	border-collapse: separate;
+	border-spacing: 0 5px;
+}
+.workflows-infinite-table thead {
+	box-shadow: none;
+}
+.workflows-infinite-table table thead th {
+	border-bottom: unset;
+}
+.workflows-infinite-table table tbody tr.table__row {
+	height: 64px;
+}
+
+.workflows-infinite-table tr td:first-child {
+	border-left: 1px solid #dee2e6;
+}
+.workflows-infinite-table tr td:last-child {
+	border-right: 1px solid #dee2e6;
+}
+.workflows-infinite-table tr td {
+	border-bottom: 1px solid #dee2e6;
+	padding: 0.2rem 0.75rem;
+}
+.workflows-infinite-table tr th {
+	padding: 0.75rem 0rem;
+}
+
+.workflows-name .action-apps-counts {
+	font-size: 8px;
+	line-height: 10px;
+	color: #717171;
+}
+.workflows-name div div.truncate_10vw {
+	margin-left: 8px;
+	margin-top: 3px;
+}
+
+.workflows-name-actions {
+	max-width: 150px;
+	margin-right: 15px;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.user-name-badge-onboarding {
+	margin: 0 8px;
+}
+
+.workflows-name-actions .custom-badge {
+	background-color: rgb(235 235 235 / 40%);
+	color: #717171;
+	font-weight: 700;
+	display: flex;
+	width: 28px;
+	align-items: center;
+	height: 28px;
+	justify-content: center;
+	border-radius: 50%;
+	font-size: 10px;
+}
+
+.created-at-component .created-at-user {
+	font-size: 8px;
+	line-height: 10px;
+	color: #717171;
+	/* margin-left: 4px; */
+}
+.created-at-component .created-at-date {
+	margin-top: 3px;
+}
+
+.modal-content.workflows-modal .modal-header {
+	background-color: #ebebeb;
+	height: 78px;
+}
+.modal-content.workflows-modal .modal-header .title-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.modal-content.workflows-modal .modal-header .title-container .title-text {
+	font-weight: 600;
+	font-size: 18px;
+	padding: 4px;
+	line-height: 23px;
+	color: #222222;
+}
+.modal-content.workflows-modal .modal-header .title-container .sub-title {
+	font-weight: 400;
+	font-size: 12px;
+	padding: 4px;
+	line-height: 18px;
+	color: #717171;
+}
+.modal-content.workflows-modal .modal-body .action-container {
+	width: 529px;
+}
+.modal-content.workflows-modal .modal-body .action-container .action-list {
+	width: 100%;
+}
+.modal-content.workflows-modal
+	.modal-body
+	.action-container
+	.action-list
+	.list-name {
+	font-weight: 400;
+	font-size: 13px;
+	color: #484848;
+	line-height: 15.12px;
+}
+
+.modal-content.workflows-template-modal .modal-header {
+	background-color: #f5f6f9;
+}
+.modal-content.workflows-template-modal
+	.modal-body
+	.container
+	.search-container {
+	width: 453px;
+}
+.modal-content.workflows-template-modal
+	.modal-body
+	.container
+	.search-container
+	.inputWithIconApps {
+	margin: 0px;
+}
+.modal-content.workflows-template-modal
+	.modal-body
+	.container
+	.search-container
+	input {
+	height: 48px;
+	width: 100%;
+}
+
+.modal-content.workflows-template-modal
+	.modal-body
+	.container
+	.search-container
+	.inputWithIconApps
+	img {
+	top: 6px;
+}
+
+.modal-content.workflows-template-modal .modal-body .container .user-email {
+	font-size: 13px;
+	line-height: 16px;
+	text-align: right;
+	text-transform: lowercase;
+	color: #222222;
+	align-items: center;
+}
+.modal-content.workflows-template-modal
+	.search-results
+	.search-iteam
+	.user-pic-checkbox-and-name {
+	justify-content: center;
+	align-items: center;
+}
+.modal-content.workflows-template-modal .search-results .search-iteam {
+	min-height: 52px;
+	align-items: center;
+	margin: 0px 0px;
+}
+.modal-content.workflows-template-modal
+	.search-results
+	.search-iteam
+	.user-pic-checkbox-and-name
+	.checkbox-container
+	input {
+	height: 16px;
+	width: 16px;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+	position: static;
+}
+
+.modal-content.workflows-template-modal .search-results {
+	max-height: 350px;
+	overflow-y: auto;
+}
+
+.modal-content.workflows-template-modal
+	.user-pic-checkbox-and-name
+	.user-info
+	img {
+	height: 32px;
+	width: 32px;
+	margin: 0px 8px;
+}
+
+.modal-content.workflows-template-modal .user-name-and-designation .user-name {
+	font-size: 13px;
+	line-height: 16px;
+	color: #222222;
+}
+.modal-content.workflows-template-modal
+	.user-name-and-designation
+	.user-designation {
+	font-size: 11px;
+	line-height: 14px;
+	color: #717171;
+}
+
+.modal-content.workflows-template-modal .search-results .search-iteam.selected {
+	background: rgba(90, 186, 255, 0.1);
+}
+.modal-content.workflows-template-modal .chips-container:after {
+	box-sizing: border-box !important;
+	margin: 12px;
+}
+
+.modal-content.workflows-template-modal .chips-container {
+	max-height: 74px;
+	min-height: 74px;
+	background: #fafbfc;
+	margin-top: 0px !important;
+	margin-bottom: 14px !important;
+	overflow-y: auto;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 4px;
+	min-width: 100%;
+	flex-wrap: wrap;
+}
+
+.chips-container.m-auto.d-flex.justify-content-start {
+	margin: 6px;
+}
+
+.modal-content.workflows-template-modal .chips-container .md-chip {
+	max-height: 28px;
+	background-color: #f4f6fa;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.modal-content.workflows-template-modal .chips-container .md-chip span {
+	color: #222222;
+}
+.margin-right-15 {
+	margin-right: 15px;
+}
+
+.workflows-infinite-table {
+	height: auto;
+	padding: 0 40px;
+}
+
+.workflows-offboarding-infinite-table {
+	height: auto;
+	padding: 0 40px;
+}
+.no-actions-here-div {
+	margin-right: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+.options {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12),
+		0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+	min-width: 130px;
+	padding: 10px;
+	min-height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.draft-option {
+	cursor: pointer;
+	white-space: nowrap;
+}
+.template-option {
+	cursor: pointer;
+	white-space: nowrap;
+}

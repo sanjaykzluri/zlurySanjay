@@ -1,0 +1,12 @@
+.usermapping__wrapper {
+	display: flex;
+}
+.usermapping__container {
+	display: flex;
+	flex-grow: 1;
+	margin: 25px 40px;
+	justify-content: space-between;
+}
+.usermapping__table__wrapper {
+	padding: 0px 40px;
+}

@@ -1,0 +1,30 @@
+.admin-integrations-connect {
+	width: 100%;
+	margin: 0 auto;
+}
+.admin-integrations-connect .z_page_container {
+	width: 60%;
+	margin: 0 auto;
+}
+.admin-integration-loading {
+	height: 100vh;
+}
+
+
+.mfa-verification-content-integration{
+	background-color: #fff;
+	max-width: 542px;
+}
+
+.otp-input-container-invite{
+	justify-content: space-evenly;
+}
+
+.otp-input-container-invite input{
+	width: 51px!important;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    color: #717171;
+    font-weight: 200;
+    height: 48px;
+}

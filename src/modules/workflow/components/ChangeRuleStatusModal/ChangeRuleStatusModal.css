@@ -1,0 +1,21 @@
+.delete-modal-rule-name {
+	background: #f4f6fa;
+	border-radius: 40px;
+	font-weight: 600;
+	padding: 5px;
+	display: inline-block;
+	word-wrap: break-word;
+	max-width: 100%;
+}
+
+.delete-modal-workflow-name-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 32px;
+}
+
+.warning-text {
+	font-weight: 600;
+}

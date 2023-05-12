@@ -1,0 +1,72 @@
+.security_probes_card {
+    border-radius: 6px;
+}
+
+.security_probes_card .security_probes_card_column {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.security_probes_card_column button {
+    margin-top: 13px;
+}
+
+.scan_summary_grade {
+    width: 91px;
+    height: 91px;
+    margin: 0;
+}
+
+.scan_summary_grade span {
+    font-size: 48.5333px;
+}
+
+.scan_summary {
+    margin-bottom: 8px;
+    height: 20px;
+}
+
+.scan_summary .label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #484848;
+    min-width: 180px;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.scan_summary .value {
+    font-size: 13px;
+    font-weight: normal;
+    color: #717171;
+    margin-left: 20px;
+}
+
+.security_probes_tabs {
+    width: calc(100vw - 550px);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.security_probes_tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.security_probe_tab {
+    height: 116px !important;
+}
+
+.security_probe_tab .nav-link {
+    height: 116px !important;
+    width: 135px !important;
+}
+
+.security_probe_tab .nav-link.active {
+    display: block;
+    box-shadow: none;
+    background-color: rgba(90, 186, 255, 0.1);
+    border-bottom: 6px solid #2266E2;
+    border-color: #2266E2 !important;
+}

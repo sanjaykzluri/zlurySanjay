@@ -1,0 +1,73 @@
+.z__button {
+    padding: 10px 15px;
+    background: #2266e2;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    border: none;
+    outline: none!important;
+}
+
+.z__button.normal{
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+}
+
+.z__button.plain{
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid #717171;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.z__button.link{
+    background-color: transparent;
+    color: #2266e2;
+} 
+
+.z__button.dashed{
+    background-color: #fff;
+    border: 1px dashed rgb(34 102 226 / 20%);
+    color: #2266e2;
+} 
+
+.z__button.reverse{
+    background-color: #fff;
+    border: 1px solid #2266E2;;
+    color: #2266e2;
+} 
+
+.z__button.border{
+    background-color: #fff;
+    border: 1px solid rgb(34 102 226 / 20%);
+    color: #484844;
+} 
+
+.z__button.edit{
+    background: transparent;
+    color: #2266e2;
+    border: none;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.z__button.edit img.z__button-edit{
+    visibility: hidden;
+}
+
+.z__button.edit:hover .z__button-edit{
+    visibility: visible;
+    cursor: pointer;
+}
+
+
+.z__button:disabled{
+    filter: contrast(0.8);
+    cursor: not-allowed;
+}

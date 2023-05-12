@@ -1,0 +1,141 @@
+.historyItem{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 26px; */
+}
+
+.historyText{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.historyText  span{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #484848;
+}
+
+.historyText p{
+    font-size: 11px;
+    line-height: 21px;
+    color: #484848;
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.noteText{
+    color: #484848;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Sora;
+}
+
+.historyItem .history_text_content{
+    display: flex;
+    width: 100%;
+}
+
+.history_text_content img{
+    height: 31px;
+    margin: 5px;
+}
+
+.textContent{
+ display: flex;
+ flex-direction: column;
+ width: 80%;
+}
+
+.iconWrapper{
+    position: relative;
+
+}
+/* .iconWrapper::before{
+    content: "";
+    height: 30px;
+    position: absolute;
+    background: black;
+    width: 5px;
+    bottom: 0;
+} */
+
+.historyItem .date_content{
+    font-family: Sora;
+    font-size: 12px;
+    color: #717171;
+}
+
+
+
+
+.step {
+  
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    background-color: cream;
+  }
+  
+  .v-stepper {
+    position: relative;
+    margin: 0 23px 0 0;
+  }
+  
+  
+  /* regular step */
+  .step .circle {
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 100%;
+    width: 20px;    /* +6 for border */
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .step .line {
+      top: 25px;
+    left: 20px;
+    height: 100%;
+      
+      position: absolute;
+      border-left: 1px solid #EBEBEB;;
+  }
+  
+  .step.completed .circle {
+    visibility: visible;
+    background-color: rgb(6,150,215);
+    border-color: rgb(6,150,215);
+  }
+  
+  .step.completed .line {
+    border-left: 3px solid rgb(6,150,215);
+  }
+  
+  .step.active .circle {
+  visibility: visible;
+    border-color: rgb(6,150,215);
+  }
+  
+  .step.empty .circle {
+      visibility: hidden;
+  }
+  
+  .step.empty .line {
+  /*     visibility: hidden; */
+  /*   height: 150%; */
+    top: 0;
+    height: 150%;
+  }
+  
+  
+  .step:last-child .line {
+    border-left: 3px solid white;
+    z-index: -1; /* behind the circle to completely hide */
+  }

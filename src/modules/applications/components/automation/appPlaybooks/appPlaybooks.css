@@ -1,0 +1,62 @@
+.tags {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	color: #717171;
+	background: rgba(90, 186, 255, 0.1);
+}
+.text-wrap {
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.appplaybook_header {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #484848;
+	margin-bottom: 2px;
+}
+.appplaybook_subheader {
+	font-family: "Sora";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #484848;
+	opacity: 0.8;
+}
+
+.createplaybook {
+	max-width: 90%;
+	margin-top: 20px;
+}
+.content_class {
+	height: 85vh;
+}
+.empty_state {
+	background: #f5f6f9;
+	height: 201px;
+	margin-bottom: 5px;
+}
+.actions_info_card {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background: #fafbff;
+	width: 75%;
+}
+.publish_tag {
+	color: #5fcf64;
+	border-radius: 4px;
+	padding: 5px;
+}
+.unpublish_tag {
+	background-color: rgba(255, 177, 105, 0.1);
+	color: #ffb169;
+	border-radius: 4px;
+	padding: 5px;
+}

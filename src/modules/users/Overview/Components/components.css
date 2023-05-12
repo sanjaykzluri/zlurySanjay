@@ -1,0 +1,60 @@
+.onboard__user__ov__button {
+	background: rgba(244, 245, 248, 0.3);
+	border: 1px solid rgba(229, 232, 240, 0.5);
+	box-sizing: border-box;
+	border-radius: 3px;
+	position: absolute;
+	width: 138px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.edit_hover_class .edit_hover_class_img {
+	visibility: hidden;
+}
+.edit_hover_class:hover .edit_hover_class_img {
+	visibility: visible;
+}
+
+.add_user_form_grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-columns: max-content;
+	grid-auto-rows: min-content;
+	overflow: auto;
+	grid-gap: 12px;
+	padding: 0 2px;
+	overflow: inherit;
+}
+
+.required:after {
+	content: " *";
+	color: red;
+	margin-left: 3px;
+}
+
+.add_edit_user_calendar {
+	top: 36px !important;
+	left: -112px !important;
+}
+
+.user_details_section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #ffffff;
+	border-radius: 4px;
+	margin: 10px 0px;
+	padding: 20px;
+	height: auto;
+	gap: 15px 25px;
+	width: fit-content;
+}
+
+.user_details_section_insights {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+}

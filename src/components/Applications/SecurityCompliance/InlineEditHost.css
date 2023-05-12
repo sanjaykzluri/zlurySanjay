@@ -1,0 +1,10 @@
+.inlineEditHost img {
+    display: none;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.inlineEditHost:hover img {
+    display: block;
+}

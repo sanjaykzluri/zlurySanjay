@@ -1,0 +1,32 @@
+img.z_modal_close{
+    position: absolute;
+    z-index: 9;
+    right: 2%;
+    top: 10px;
+    transform: translate(-50%, 0%);
+}
+.modal-header{
+    position: relative;
+}
+
+.modal-header img.z_modal_close{
+    top: calc(50% - 10px);
+}
+
+/* similarly do for left  */
+div[drawer="right"]{
+    max-width: 60vw;
+    top: 0%;
+    margin: 0;
+    left: 100%;
+    transform: translateX(-100%)!important;
+    display: block;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+div[drawer="right"] .modal-content{
+    height: 100vh;
+    border-radius: 0px!important;
+    overflow: auto;
+}

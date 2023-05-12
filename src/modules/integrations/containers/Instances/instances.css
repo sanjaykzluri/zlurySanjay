@@ -1,0 +1,46 @@
+.ml-14 {
+	margin-left: 14px;
+}
+.z__instances .my-31 {
+	margin-top: 31px;
+	margin-bottom: 30px;
+}
+
+.z__instances .common-font-style {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.z__instances .instance-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+}
+.z__instances .font-color-black {
+	color: #222222;
+}
+
+.z__instances .instance__font14 {
+	font-size: 14px;
+	line-height: 18px;
+}
+.z__instances .font-color-gray-2 {
+	color: #717171;
+}
+
+.instance_data_sources_container {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.data_source_container {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	border-radius: 8px;
+}

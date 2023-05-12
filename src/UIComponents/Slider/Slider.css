@@ -1,0 +1,6 @@
+.slider_next_button {
+	position: absolute;
+	top: 35%;
+	left: 98%;
+	transform: translateY(-50%);
+}

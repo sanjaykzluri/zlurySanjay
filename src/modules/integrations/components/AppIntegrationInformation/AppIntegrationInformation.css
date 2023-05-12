@@ -1,0 +1,18 @@
+.z_i_similar_apps__slide_next{
+	position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+}
+
+.z_i_similar_apps_slider, .z_i_similar_apps_slider .slick-list{
+	max-height: 290px;
+}
+
+.z_i_similar_apps_slider .slick-slide img{
+	display: inline;
+}
+
+.z_i_similar_apps_slider .slick-slide{
+    width: 250px!important;
+}

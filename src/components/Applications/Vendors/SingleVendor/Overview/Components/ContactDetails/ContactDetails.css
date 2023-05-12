@@ -1,0 +1,104 @@
+.contactdetails__cont{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+}
+.contactdetails__cont__d1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    font-size: 12px;
+line-height: 18px;
+color: #717171;
+position: relative;
+}
+.contactdetails__cont__d1 > img{
+    margin-left: 10px;
+}
+.contactdetails__cont__d2{
+    margin-top: 14px;
+    transition:1s ease-in-out;
+    -webkit-transition:1s ease-in-out;
+}
+
+.contactdetails__card{
+    height: 120px;
+    background: rgba(235, 235, 235, 0.1);
+    border: 1px solid rgba(113, 113, 113, 0.1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactdetails__card__d1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-left: 10px;
+    position: relative;
+}
+.contactdetails__card__d1__d2{
+    display: flex;
+    flex-direction: column;
+    height: 34px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.contactdetails__card__d1__d2__d1{
+    font-size: 14px;
+color: #222222;
+}
+.contactdetails__card__d1__d2__d2{
+    font-size: 11px;
+    
+    color: #717171;
+    
+}
+.contactdetails__card__d1__d3{
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    width: 65px;
+height: 16px;
+font-size: 10px;
+line-height: 13px;
+text-transform: uppercase;
+color: #717171;
+background: #EBEBEB;
+opacity: 0.7;
+border-radius: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.contactdetails__card__d2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 14px;
+}
+
+.contactdetails__card__d2__d2{
+    font-size: 14px;
+color: #222222;
+margin-right: 15px;
+margin-left: 6px;
+}
+.contactdetails__card__d3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 6px;
+}
+.contact_details_arrow {
+    margin-top: 5px;
+}
+
+.contact_details_arrow_on_show {
+    transform: rotate(180deg)
+}

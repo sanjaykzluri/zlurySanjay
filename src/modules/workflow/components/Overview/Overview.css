@@ -1,0 +1,13 @@
+.overview_item {
+    margin-left: -13px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.overview_item:hover {
+    background-color: rgba(90, 186, 255, 0.1);
+}
+
+.overview_item>img, .overview_item>.img {
+    border-radius: 4px;
+}

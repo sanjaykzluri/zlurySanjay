@@ -1,0 +1,135 @@
+.z__manual__number {
+	background: #ffffff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+	/* width: 100%; */
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 28px;
+	width: 29px;
+	font-size: 13px;
+}
+
+.z__manual__operator {
+	background: #ffffff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 28px;
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 13px;
+}
+
+.z__options {
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 187px;
+	border-radius: 2px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.z__options:hover {
+	background: rgba(90, 186, 255, 0.1);
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 187px;
+	border-radius: 2px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.sourceCardHeader {
+	margin: 0px -15px;
+	padding: 15px;
+	background-color: rgba(90, 186, 255, 0.1);
+}
+
+.sourceCardIcon {
+	width: 10px;
+}
+
+.sourceCardTime {
+	font-size: 8px;
+	line-height: 10px;
+	color: #717171;
+	margin: auto 5px auto;
+}
+
+.sourceCardTime .time {
+	opacity: 0.5;
+}
+
+.sourceCardRiskLevel {
+	background: #5abaff1a;
+	border: 0.5px solid rgba(151, 151, 151, 0.2);
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.user-app-options-popover {
+	width: 197px;
+	position: absolute;
+	top: 10px;
+	padding: 4px;
+	cursor: pointer;
+}
+
+.user-app-manual-usage-popover {
+	width: 240px;
+	position: absolute;
+	top: 16px;
+	height: 166px;
+	padding: 15px 15px 0px 15px;
+}
+
+.user-app-sources-popover {
+	width: 307px;
+	position: absolute;
+	top: 15px;
+	padding: 0px 15px;
+}
+
+.activity-tab-options-popover {
+	width: 197px;
+	position: absolute;
+	top: 7px;
+	padding: 4px;
+	cursor: pointer;
+}
+
+.usage-activity-manual-usage-popover {
+	position: absolute;
+	width: 240px;
+	height: 166px;
+	padding: 15px 15px 0px 15px;
+}
+
+.primary-source-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #2266e2;
+	box-sizing: border-box;
+	border-radius: 24px;
+	width: 142px;
+	height: 24px;
+	font-size: 11px;
+	color: #2266e2;
+	cursor: pointer;
+}

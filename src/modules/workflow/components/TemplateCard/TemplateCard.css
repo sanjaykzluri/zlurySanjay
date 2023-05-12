@@ -1,0 +1,52 @@
+.workflow-template-card {
+	width: 30%;
+	max-width: 30%;
+	border: 1px solid #e8ecf8;
+	position: relative;
+	margin-right: 30px;
+}
+
+.upload-bulk-users {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 10500;
+	width: 529px;
+	border: 1px solid #dddddd;
+}
+
+.workflow-template-card .more-options {
+	position: absolute;
+	right: 5%;
+	z-index: 99;
+	top: 7%;
+}
+
+.w-t-options {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 6px -4px rgb(0 0 0 / 12%), 0px 6px 16px rgb(0 0 0 / 8%),
+		0px 9px 28px 8px rgb(0 0 0 / 5%);
+	border-radius: 4px;
+	min-width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.w-t-options ul li:hover {
+	background-color: #eee;
+}
+
+.workflow-template-card.w-progress {
+	background: rgba(90, 186, 255, 0.1);
+}
+
+.bulk-user-onboard-button-truncation {
+	max-width: 150px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

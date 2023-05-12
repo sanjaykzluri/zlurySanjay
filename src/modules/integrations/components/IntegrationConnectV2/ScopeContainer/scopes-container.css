@@ -1,0 +1,28 @@
+.permissions-container {
+	min-width: 463px;
+	max-width: 500px;
+	padding-bottom: 14px;
+	border-radius: 6px;
+}
+
+.permissions-container .__header {
+	font-family: Sora;
+	font-style: normal;
+	font-weight: normal;
+}
+.permissions-container .ml-22 {
+	margin-left: 22px;
+}
+.permissions-container .mt-13 {
+	margin-top: 13px;
+}
+.__heading {
+	line-height: 24px;
+	height: 24px;
+	color: #717171;
+	font-weight: 600;
+}
+.permissions-container .__sub-heading {
+	color: #717171;
+	max-width: 344px;
+}

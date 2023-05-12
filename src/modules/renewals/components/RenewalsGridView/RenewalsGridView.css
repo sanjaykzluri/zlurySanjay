@@ -1,0 +1,53 @@
+.grid__container .block {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.month__card {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    width: 33%;
+    min-height: 140px;
+}
+
+.month__card:nth-child(1), .month__card:nth-child(2), .month__card:nth-child(3){
+    border-top: 0;
+}
+
+.month__card:nth-child(1), .month__card:nth-child(4), .month__card:nth-child(7), .month__card:nth-child(10){
+    border-left: 0;
+}
+
+.month__card-info,
+.block__month--header__desc div {
+    border-radius: 8px;
+}
+
+.month__card-info img {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-left: -5px;
+    object-fit: contain;
+}
+
+.block__month--header {
+    background: #f9f9f9;
+}
+
+.block__month {
+    min-width: 37%;
+}
+
+.block__month--date__body > div > img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.block__month--body{
+    max-height: 444px;
+    overflow: auto;
+    height: 100%;
+}

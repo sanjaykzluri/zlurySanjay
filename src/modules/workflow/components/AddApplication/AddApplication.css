@@ -1,0 +1,79 @@
+.z-workflow-add-application-btn {
+	background: #fff;
+	border-radius: 30px;
+	border: 1px solid #e8ecf8;
+	box-sizing: border-box;
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+	transition: all 0.2s ease-in-out;
+}
+.z-workflow-add-application-btn button img:nth-child(1),
+.z-workflow-add-application-btn:hover button img:nth-child(2),
+.z-workflow-add-application-btn.active button img:nth-child(2) {
+	display: block;
+}
+
+.z-workflow-add-application-btn.active button img:nth-child(1),
+.z-workflow-add-application-btn:hover button img:nth-child(1),
+.z-workflow-add-application-btn button img:nth-child(2) {
+	display: none;
+}
+
+.z-workflow-add-application-btn button img:nth-child(1) {
+	margin-top: 3px;
+}
+
+.z-workflow-add-application-btn.active button img:nth-child(2) {
+	transform: rotateZ(45deg);
+	transition: all 0.2s ease-in-out;
+}
+
+.z-workflow-add-application-btn button img:nth-child(2) {
+	margin-left: -2px;
+}
+
+.z-workflow-add-application-btn:hover,
+.z-workflow-add-application-btn.active {
+	background: #2266e2;
+	transform: scale(1.5);
+	z-index: 99999999;
+	position: relative;
+}
+
+.z-workflow-add-application {
+	position: relative;
+	width: 100%;
+	left: 0;
+	margin-top: -20px;
+	margin-bottom: -10px;
+	z-index: 9;
+}
+
+.z-w-add-app-ui input {
+	border: none;
+}
+
+div.blue-spinner {
+	color: #5abaff !important;
+}
+
+.z-workflow-add-application:hover {
+	/* z-index: 9999; */
+}
+
+.static-add-node {
+	background: rgba(90, 186, 255, 0.1);
+	border-radius: 4px;
+	position: relative;
+}
+
+.static-add-node img {
+	position: relative;
+	top: 3px;
+}
+
+.vertical-divider {
+	background: #dddddd;
+	width: 1px;
+}

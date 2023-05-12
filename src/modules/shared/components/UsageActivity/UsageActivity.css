@@ -1,0 +1,108 @@
+.sourceUsageActivityModal {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 581px;
+	border: 1px solid #dddddd;
+}
+
+.sourceDetailsModal {
+	position: fixed;
+	background: #ffffff;
+	right: 0px;
+	top: 0px;
+	z-index: 1050;
+	width: 463px;
+	border: 1px solid #dddddd;
+}
+
+.licenseContainer {
+	padding: 20px;
+}
+
+.borderStyling {
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+.sourceCard {
+	background: #ffffff;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 110px;
+	padding: 10px 0px;
+	height: 122px;
+	margin-left: 18px;
+}
+
+.sourceCard > img {
+	width: 26px;
+}
+
+.sourceTabs > a {
+	text-align: left;
+	padding: 10px 0px 0px 0px;
+	margin-right: 20px;
+	color: #717171;
+	font-weight: normal;
+}
+
+.sourceTabs > a.active {
+	color: #222222;
+}
+
+.graphLoader {
+	/* Rectangle 94 */
+	position: absolute;
+	width: 495px;
+	height: 247px;
+	left: 44px;
+	top: 277px;
+	/* grey-4 */
+	background: #ebebeb;
+	border-radius: 4px;
+	/* Vector 6 */
+	position: absolute;
+	width: 495px;
+	height: 137px;
+	left: 44px;
+	top: 388px;
+	/* white */
+	background: #ffffff;
+	opacity: 0.5;
+	border-radius: 310px;
+}
+
+.headerImage {
+	height: 26px;
+	width: 26px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.selectedActivitySource {
+	background-color: #28a74529;
+}
+
+.unassign-license-option-dropdown {
+	left: 395px !important;
+	width: 150px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.text-truncate {
+	width: 12vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
